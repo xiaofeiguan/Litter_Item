@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2B5255E909300E5C74D /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2B4255E909300E5C74D /* item.plist */; };
+		5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Redme.md */; };
 		5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28A255E3563007A74E4 /* AppDelegate.m */; };
 		5B8FF28E255E3563007A74E4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28D255E3563007A74E4 /* SceneDelegate.m */; };
 		5B8FF291255E3563007A74E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF290255E3563007A74E4 /* ViewController.m */; };
@@ -98,6 +99,7 @@
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5B76B2B3255E901900E5C74D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		5B76B2B4255E909300E5C74D /* item.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = item.plist; sourceTree = "<group>"; };
+		5B76B2D925624F1C00E5C74D /* Redme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redme.md; sourceTree = "<group>"; };
 		5B8FF286255E3563007A74E4 /* Litter_item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litter_item.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8FF289255E3563007A74E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8FF28A255E3563007A74E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				5B8FF297255E3565007A74E4 /* LaunchScreen.storyboard */,
 				5B8FF29A255E3565007A74E4 /* Info.plist */,
 				5B8FF29B255E3565007A74E4 /* main.m */,
+				5B76B2D925624F1C00E5C74D /* Redme.md */,
 			);
 			path = Litter_item;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				77F71379255FBA31008564E9 /* tabbar_three_normal@2x.png in Resources */,
 				77F713C725600C79008564E9 /* tabbar_shop_pressed@3x.png in Resources */,
 				77F713F92560E768008564E9 /* Discuss.plist in Resources */,
+				5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */,
 				77F71373255FBA31008564E9 /* tabbar_two_selected@3x.png in Resources */,
 				5B76B2B5255E909300E5C74D /* item.plist in Resources */,
 				77F713B225600C5C008564E9 /* tabbar_device@3x.png in Resources */,

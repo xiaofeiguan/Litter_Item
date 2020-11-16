@@ -83,7 +83,7 @@
 				<key>class</key>
 				<string>LGHTableWebViewController</string>
 				<key>isPush</key>
-				<true/>
+				<false/>
 			</dict>
 		</array>
 	</dict>

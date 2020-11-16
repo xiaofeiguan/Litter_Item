@@ -102,7 +102,7 @@
             vc.title = titles.firstObject;
         }else{
             [self.navigationController presentViewController:vc animated:YES completion:nil];
-            
+            vc.modalPresentationStyle = UIModalPresentationFullScreen;
             
             
         }
