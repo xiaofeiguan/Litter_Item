@@ -79,11 +79,19 @@
 			</dict>
 			<dict>
 				<key>title</key>
-				<string>UITableView里面嵌套WKWebView布局(商品+详情)</string>
+				<string>UITableView+WKWebView布局(商品+详情)</string>
 				<key>class</key>
 				<string>LGHTableWebViewController</string>
 				<key>isPush</key>
-				<false/>
+				<true/>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>UITableView+WKWebView+UITableView布局(商品内容+详情+商品推荐)</string>
+				<key>class</key>
+				<string>LGHTableWebTableViewController</string>
+				<key>isPush</key>
+				<true/>
 			</dict>
 		</array>
 	</dict>

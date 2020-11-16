@@ -77,6 +77,7 @@
 		77F7141A256152A5008564E9 /* detail_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F71415256152A4008564E9 /* detail_bg.png */; };
 		77F71425256158D8008564E9 /* LGHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F71424256158D8008564E9 /* LGHTools.m */; };
 		77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F714362561755D008564E9 /* LGHCustomButtonViewController.m */; };
+		77F714642562BD57008564E9 /* LGHTableWebTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F714632562BD57008564E9 /* LGHTableWebTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +208,8 @@
 		77F71424256158D8008564E9 /* LGHTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTools.m; sourceTree = "<group>"; };
 		77F714352561755D008564E9 /* LGHCustomButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHCustomButtonViewController.h; sourceTree = "<group>"; };
 		77F714362561755D008564E9 /* LGHCustomButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHCustomButtonViewController.m; sourceTree = "<group>"; };
+		77F714622562BD57008564E9 /* LGHTableWebTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHTableWebTableViewController.h; sourceTree = "<group>"; };
+		77F714632562BD57008564E9 /* LGHTableWebTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTableWebTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,13 +275,6 @@
 			path = header;
 			sourceTree = "<group>";
 		};
-		5B76B2A2255E8C3C00E5C74D /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
 		5B76B2ED25628D0300E5C74D /* 底层原理 */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,7 +332,6 @@
 				77F713D225601377008564E9 /* 页面布局 */,
 				5B76B2ED25628D0300E5C74D /* 底层原理 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
-				5B76B2A2255E8C3C00E5C74D /* Other */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
 				5B76B2A1255E8BF500E5C74D /* header */,
@@ -516,6 +511,7 @@
 			children = (
 				77F713D325601D27008564E9 /* 文章内容+评论 */,
 				77F713EB25604791008564E9 /* 商品内容+详情 */,
+				77F714612562BC23008564E9 /* 商品内容+详情+商品推荐 */,
 			);
 			path = "页面布局";
 			sourceTree = "<group>";
@@ -564,6 +560,15 @@
 				77F7139925600602008564E9 /* XJVerticalButton.m */,
 			);
 			path = "自定义Button";
+			sourceTree = "<group>";
+		};
+		77F714612562BC23008564E9 /* 商品内容+详情+商品推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				77F714622562BD57008564E9 /* LGHTableWebTableViewController.h */,
+				77F714632562BD57008564E9 /* LGHTableWebTableViewController.m */,
+			);
+			path = "商品内容+详情+商品推荐";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -735,6 +740,7 @@
 				77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */,
 				77F7139B25600602008564E9 /* XJVerticalButton.m in Sources */,
 				77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */,
+				77F714642562BD57008564E9 /* LGHTableWebTableViewController.m in Sources */,
 				77F71323255F9531008564E9 /* LGHTabBar01ViewController.m in Sources */,
 				5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */,
 				77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */,
