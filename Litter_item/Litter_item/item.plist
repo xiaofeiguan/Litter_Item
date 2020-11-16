@@ -117,5 +117,28 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>底层原理</string>
+		<key>list</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>KVC</string>
+				<key>class</key>
+				<string>LGHKVCViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>KVO</string>
+				<key>class</key>
+				<string>LGHKVOViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>

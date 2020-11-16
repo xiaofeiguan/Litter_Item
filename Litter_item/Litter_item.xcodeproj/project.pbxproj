@@ -10,6 +10,9 @@
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2B5255E909300E5C74D /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2B4255E909300E5C74D /* item.plist */; };
 		5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Redme.md */; };
+		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
+		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
+		5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */; };
 		5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28A255E3563007A74E4 /* AppDelegate.m */; };
 		5B8FF28E255E3563007A74E4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28D255E3563007A74E4 /* SceneDelegate.m */; };
 		5B8FF291255E3563007A74E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF290255E3563007A74E4 /* ViewController.m */; };
@@ -100,6 +103,12 @@
 		5B76B2B3255E901900E5C74D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		5B76B2B4255E909300E5C74D /* item.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = item.plist; sourceTree = "<group>"; };
 		5B76B2D925624F1C00E5C74D /* Redme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redme.md; sourceTree = "<group>"; };
+		5B76B2EF25628D6B00E5C74D /* LGHKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVCViewController.h; sourceTree = "<group>"; };
+		5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVCViewController.m; sourceTree = "<group>"; };
+		5B76B2F825628D9100E5C74D /* LGHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHPerson.h; sourceTree = "<group>"; };
+		5B76B2F925628D9100E5C74D /* LGHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHPerson.m; sourceTree = "<group>"; };
+		5B76B30C2562970F00E5C74D /* LGHKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVOViewController.h; sourceTree = "<group>"; };
+		5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVOViewController.m; sourceTree = "<group>"; };
 		5B8FF286255E3563007A74E4 /* Litter_item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litter_item.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8FF289255E3563007A74E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8FF28A255E3563007A74E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -270,6 +279,35 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		5B76B2ED25628D0300E5C74D /* 底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+				5B76B2EE25628D2900E5C74D /* KVC */,
+				5B76B30B256296D000E5C74D /* KVO */,
+			);
+			path = "底层原理";
+			sourceTree = "<group>";
+		};
+		5B76B2EE25628D2900E5C74D /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				5B76B2EF25628D6B00E5C74D /* LGHKVCViewController.h */,
+				5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */,
+				5B76B2F825628D9100E5C74D /* LGHPerson.h */,
+				5B76B2F925628D9100E5C74D /* LGHPerson.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		5B76B30B256296D000E5C74D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				5B76B30C2562970F00E5C74D /* LGHKVOViewController.h */,
+				5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 		5B8FF27D255E3563007A74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +334,7 @@
 				5B76B298255E89F400E5C74D /* 自定义UI */,
 				77F714222561589A008564E9 /* 自定义控件 */,
 				77F713D225601377008564E9 /* 页面布局 */,
+				5B76B2ED25628D0300E5C74D /* 底层原理 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				5B76B2A2255E8C3C00E5C74D /* Other */,
 				77F712EC255EF234008564E9 /* Category */,
@@ -697,8 +736,10 @@
 				77F7139B25600602008564E9 /* XJVerticalButton.m in Sources */,
 				77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */,
 				77F71323255F9531008564E9 /* LGHTabBar01ViewController.m in Sources */,
+				5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */,
 				77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */,
 				77F714042561503B008564E9 /* ItemBankHeadCell.m in Sources */,
+				5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */,
 				77F712E8255EF144008564E9 /* LGHImageViewMaker.m in Sources */,
 				77F71317255F93C4008564E9 /* LGHTwoViewController.m in Sources */,
 				77F71388255FD0DB008564E9 /* LGHTabbar02ViewController.m in Sources */,
@@ -713,6 +754,7 @@
 				77F71395255FF46F008564E9 /* LGHTabBarOne.m in Sources */,
 				5B8FF28E255E3563007A74E4 /* SceneDelegate.m in Sources */,
 				77F712E6255EF144008564E9 /* LGHLabelMaker.m in Sources */,
+				5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */,
 				77F712EF255EF27A008564E9 /* UIView+LGHExtension.m in Sources */,
 				77F7130E255F93B4008564E9 /* LGHOneViewController.m in Sources */,
 				77F712E7255EF144008564E9 /* LGHTextViewMaker.m in Sources */,
@@ -897,7 +939,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lgh.Litter-item";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -916,7 +958,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lgh.Litter-item";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
