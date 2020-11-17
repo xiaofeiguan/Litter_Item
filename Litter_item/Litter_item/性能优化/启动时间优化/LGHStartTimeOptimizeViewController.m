@@ -11,7 +11,7 @@
  */
 
 #import "LGHStartTimeOptimizeViewController.h"
-#import "LGHBaseTableDataSource.h"
+
 @interface LGHStartTimeOptimizeViewController ()
 @property (nonatomic, strong) LGHBaseTableDataSource * dataSource;
 @end
@@ -37,6 +37,19 @@
         cell.textLabel.text = model[@"title"];
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
         NSLog(@"点击了%ld行cell", (long)indexPath.row);
+        NSDictionary *data = self.datas[indexPath.row];
+        NSString *url = data[@"url"];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            LGHBaseWKWebViewController *webVC = [[LGHBaseWKWebViewController alloc]initWithUrl:url];
+            if (self.navigationController) {
+                [self.navigationController pushViewController:webVC animated:NO];
+            }else{
+                [self presentViewController:webVC animated:YES completion:^{
+                    
+                }];
+            }
+        });
+        
     }];
     
     [self.dataSource dataWithArray:[self.datas copy]];

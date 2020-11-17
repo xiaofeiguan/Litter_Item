@@ -6,7 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LGHBaseWKWebViewController.h"
+#import "LGHBaseTableDataSource.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LGHBaseTableViewController : UIViewController
