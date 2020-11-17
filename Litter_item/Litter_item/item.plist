@@ -117,6 +117,14 @@
 		<array>
 			<dict>
 				<key>title</key>
+				<string>App启动时间优化</string>
+				<key>class</key>
+				<string>LGHStartTimeOptimizeViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>title</key>
 				<string>App首页的卡顿优化(以小鸡游戏世界为例)</string>
 				<key>class</key>
 				<string>LGHLeftSlipViewController</string>

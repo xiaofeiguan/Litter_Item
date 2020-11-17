@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
-		5B76B2B5255E909300E5C74D /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2B4255E909300E5C74D /* item.plist */; };
 		5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Redme.md */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
@@ -22,6 +21,11 @@
 		5B8FF29C255E3565007A74E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF29B255E3565007A74E4 /* main.m */; };
 		5B8FF2A6255E3566007A74E4 /* Litter_itemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF2A5255E3566007A74E4 /* Litter_itemTests.m */; };
 		5B8FF2B1255E3566007A74E4 /* Litter_itemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF2B0255E3566007A74E4 /* Litter_itemUITests.m */; };
+		5BA01B3D2563D39D0062E210 /* LGHBaseTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B392563D39D0062E210 /* LGHBaseTableDataSource.m */; };
+		5BA01B3E2563D39D0062E210 /* LGHBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B3B2563D39D0062E210 /* LGHBaseWebViewController.m */; };
+		5BA01B3F2563D39D0062E210 /* LGHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B3C2563D39D0062E210 /* LGHBaseTableViewController.m */; };
+		5BA01B472563D3C00062E210 /* LGHStartTimeOptimizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B452563D3C00062E210 /* LGHStartTimeOptimizeViewController.m */; };
+		5BA01B4F2563D3DD0062E210 /* item.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BA01B4E2563D3DD0062E210 /* item.plist */; };
 		77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712D4255EF144008564E9 /* LGHButtonMaker.m */; };
 		77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712D6255EF144008564E9 /* LGHViewMaker.m */; };
 		77F712E4255EF144008564E9 /* LGHTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712DA255EF144008564E9 /* LGHTableViewMaker.m */; };
@@ -102,7 +106,6 @@
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5B76B2B3255E901900E5C74D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		5B76B2B4255E909300E5C74D /* item.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = item.plist; sourceTree = "<group>"; };
 		5B76B2D925624F1C00E5C74D /* Redme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redme.md; sourceTree = "<group>"; };
 		5B76B2EF25628D6B00E5C74D /* LGHKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVCViewController.h; sourceTree = "<group>"; };
 		5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVCViewController.m; sourceTree = "<group>"; };
@@ -128,6 +131,15 @@
 		5B8FF2AC255E3566007A74E4 /* Litter_itemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Litter_itemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8FF2B0255E3566007A74E4 /* Litter_itemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Litter_itemUITests.m; sourceTree = "<group>"; };
 		5B8FF2B2255E3566007A74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA01B362563D39D0062E210 /* LGHBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseWebViewController.h; sourceTree = "<group>"; };
+		5BA01B382563D39D0062E210 /* LGHBaseTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseTableDataSource.h; sourceTree = "<group>"; };
+		5BA01B392563D39D0062E210 /* LGHBaseTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseTableDataSource.m; sourceTree = "<group>"; };
+		5BA01B3A2563D39D0062E210 /* LGHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseTableViewController.h; sourceTree = "<group>"; };
+		5BA01B3B2563D39D0062E210 /* LGHBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseWebViewController.m; sourceTree = "<group>"; };
+		5BA01B3C2563D39D0062E210 /* LGHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseTableViewController.m; sourceTree = "<group>"; };
+		5BA01B452563D3C00062E210 /* LGHStartTimeOptimizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHStartTimeOptimizeViewController.m; sourceTree = "<group>"; };
+		5BA01B462563D3C00062E210 /* LGHStartTimeOptimizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHStartTimeOptimizeViewController.h; sourceTree = "<group>"; };
+		5BA01B4E2563D3DD0062E210 /* item.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = item.plist; sourceTree = "<group>"; };
 		77F712D3255EF144008564E9 /* LGHTableViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHTableViewMaker.h; sourceTree = "<group>"; };
 		77F712D4255EF144008564E9 /* LGHButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHButtonMaker.m; sourceTree = "<group>"; };
 		77F712D5255EF144008564E9 /* LGHTextFieldMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHTextFieldMaker.h; sourceTree = "<group>"; };
@@ -330,6 +342,7 @@
 				5B76B298255E89F400E5C74D /* 自定义UI */,
 				77F714222561589A008564E9 /* 自定义控件 */,
 				77F713D225601377008564E9 /* 页面布局 */,
+				5BA01B432563D3C00062E210 /* 性能优化 */,
 				5B76B2ED25628D0300E5C74D /* 底层原理 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
@@ -341,7 +354,7 @@
 				5B8FF28D255E3563007A74E4 /* SceneDelegate.m */,
 				5B8FF28F255E3563007A74E4 /* ViewController.h */,
 				5B8FF290255E3563007A74E4 /* ViewController.m */,
-				5B76B2B4255E909300E5C74D /* item.plist */,
+				5BA01B4E2563D3DD0062E210 /* item.plist */,
 				5B8FF292255E3563007A74E4 /* Main.storyboard */,
 				5B8FF295255E3565007A74E4 /* Assets.xcassets */,
 				5B8FF297255E3565007A74E4 /* LaunchScreen.storyboard */,
@@ -370,9 +383,48 @@
 			path = Litter_itemUITests;
 			sourceTree = "<group>";
 		};
+		5BA01B352563D39D0062E210 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BA01B362563D39D0062E210 /* LGHBaseWebViewController.h */,
+				5BA01B372563D39D0062E210 /* MVP */,
+				5BA01B3A2563D39D0062E210 /* LGHBaseTableViewController.h */,
+				5BA01B3B2563D39D0062E210 /* LGHBaseWebViewController.m */,
+				5BA01B3C2563D39D0062E210 /* LGHBaseTableViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		5BA01B372563D39D0062E210 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				5BA01B382563D39D0062E210 /* LGHBaseTableDataSource.h */,
+				5BA01B392563D39D0062E210 /* LGHBaseTableDataSource.m */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		5BA01B432563D3C00062E210 /* 性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+				5BA01B442563D3C00062E210 /* 启动时间优化 */,
+			);
+			path = "性能优化";
+			sourceTree = "<group>";
+		};
+		5BA01B442563D3C00062E210 /* 启动时间优化 */ = {
+			isa = PBXGroup;
+			children = (
+				5BA01B452563D3C00062E210 /* LGHStartTimeOptimizeViewController.m */,
+				5BA01B462563D3C00062E210 /* LGHStartTimeOptimizeViewController.h */,
+			);
+			path = "启动时间优化";
+			sourceTree = "<group>";
+		};
 		77F712D1255EF052008564E9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				5BA01B352563D39D0062E210 /* BaseViewController */,
 				77F712D2255EF144008564E9 /* LGHMakeViewTools */,
 			);
 			path = Lib;
@@ -677,6 +729,7 @@
 				5B8FF299255E3565007A74E4 /* LaunchScreen.storyboard in Resources */,
 				77F71304255EF892008564E9 /* CheckboxTableViewCell.xib in Resources */,
 				77F71376255FBA31008564E9 /* tabbar_three_selected@3x.png in Resources */,
+				5BA01B4F2563D3DD0062E210 /* item.plist in Resources */,
 				77F71377255FBA31008564E9 /* tabbar_two_normal@3x.png in Resources */,
 				77F713B125600C5C008564E9 /* tabbar_device@2x.png in Resources */,
 				77F7141A256152A5008564E9 /* detail_bg.png in Resources */,
@@ -698,7 +751,6 @@
 				77F713F92560E768008564E9 /* Discuss.plist in Resources */,
 				5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */,
 				77F71373255FBA31008564E9 /* tabbar_two_selected@3x.png in Resources */,
-				5B76B2B5255E909300E5C74D /* item.plist in Resources */,
 				77F713B225600C5C008564E9 /* tabbar_device@3x.png in Resources */,
 				77F7137C255FBA31008564E9 /* tabbar_two_selected@2x.png in Resources */,
 				77F713C025600C70008564E9 /* tabbar_help@2x.png in Resources */,
@@ -737,6 +789,8 @@
 				77F712E5255EF144008564E9 /* LGHTextFieldMaker.m in Sources */,
 				77F71425256158D8008564E9 /* LGHTools.m in Sources */,
 				77F713F12560DE22008564E9 /* LGHTableWebViewController.m in Sources */,
+				5BA01B472563D3C00062E210 /* LGHStartTimeOptimizeViewController.m in Sources */,
+				5BA01B3F2563D39D0062E210 /* LGHBaseTableViewController.m in Sources */,
 				77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */,
 				77F7139B25600602008564E9 /* XJVerticalButton.m in Sources */,
 				77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */,
@@ -746,6 +800,7 @@
 				77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */,
 				77F714042561503B008564E9 /* ItemBankHeadCell.m in Sources */,
 				5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */,
+				5BA01B3E2563D39D0062E210 /* LGHBaseWebViewController.m in Sources */,
 				77F712E8255EF144008564E9 /* LGHImageViewMaker.m in Sources */,
 				77F71317255F93C4008564E9 /* LGHTwoViewController.m in Sources */,
 				77F71388255FD0DB008564E9 /* LGHTabbar02ViewController.m in Sources */,
@@ -753,6 +808,7 @@
 				77F712F9255EF822008564E9 /* LGHCheckboxViewController.m in Sources */,
 				5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */,
 				77F712E4255EF144008564E9 /* LGHTableViewMaker.m in Sources */,
+				5BA01B3D2563D39D0062E210 /* LGHBaseTableDataSource.m in Sources */,
 				5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */,
 				5B8FF29C255E3565007A74E4 /* main.m in Sources */,
 				77F713E225603B8C008564E9 /* LGHWebTableViewController.m in Sources */,
