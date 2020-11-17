@@ -387,10 +387,10 @@
 			isa = PBXGroup;
 			children = (
 				5BA01B362563D39D0062E210 /* LGHBaseWebViewController.h */,
-				5BA01B372563D39D0062E210 /* MVP */,
 				5BA01B3A2563D39D0062E210 /* LGHBaseTableViewController.h */,
 				5BA01B3B2563D39D0062E210 /* LGHBaseWebViewController.m */,
 				5BA01B3C2563D39D0062E210 /* LGHBaseTableViewController.m */,
+				5BA01B372563D39D0062E210 /* MVP */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -415,8 +415,8 @@
 		5BA01B442563D3C00062E210 /* 启动时间优化 */ = {
 			isa = PBXGroup;
 			children = (
-				5BA01B452563D3C00062E210 /* LGHStartTimeOptimizeViewController.m */,
 				5BA01B462563D3C00062E210 /* LGHStartTimeOptimizeViewController.h */,
+				5BA01B452563D3C00062E210 /* LGHStartTimeOptimizeViewController.m */,
 			);
 			path = "启动时间优化";
 			sourceTree = "<group>";
