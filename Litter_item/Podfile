@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Litter_item' do
+
+  pod 'Masonry', '~> 1.1.0'
+
+end
+
+target 'Litter_itemTests' do
+
+end
+
+target 'Litter_itemUITests' do
+
+end
+
+
