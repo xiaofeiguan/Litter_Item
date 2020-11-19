@@ -56,7 +56,7 @@
 
 -(void)loadDatas{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        sleep(1.0f);
+        sleep(1.0f); //模拟网络请求
         for (int i = 0; i <= 7; i++) {
             NSData *data = [NSData dataNamed:[NSString stringWithFormat:@"weibo_%d.json",i]];
             WBTimelineItem *item = [WBTimelineItem modelWithJSON:data];
@@ -67,7 +67,6 @@
         }
         dispatch_async(dispatch_get_main_queue(), ^{
             self.title = [NSString stringWithFormat:@"Weibo (loaded:%d)", (int)_layouts.count];
-            [indicator removeFromSuperview];
             self.navigationController.view.userInteractionEnabled = YES;
             [_tableView reloadData];
         });
