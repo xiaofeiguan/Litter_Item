@@ -93,6 +93,14 @@
 				<key>isPush</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>微博复杂页面布局(布局+性能优化)</string>
+				<key>class</key>
+				<string>LGHWeiboHomeViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<dict>

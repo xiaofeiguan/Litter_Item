@@ -18,6 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) CGFloat lgh_centerY;
 @property (assign, nonatomic) CGSize  lgh_size;
 @property (assign, nonatomic) CGPoint lgh_origin;
+@property (assign, nonatomic) CGFloat lgh_top;
+@property (assign, nonatomic) CGFloat lgh_bottom;
+@property (assign, nonatomic) CGFloat lgh_left;
+@property (assign, nonatomic) CGFloat lgh_right;
 
 - (void)willMoveToSuperview:(UIView *)newSuperview;
 

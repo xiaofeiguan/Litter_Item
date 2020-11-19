@@ -89,6 +89,47 @@
     return self.frame.size;
 }
 
+- (CGFloat)lgh_left {
+    return self.frame.origin.x;
+}
+
+- (void)setLgh_left:(CGFloat)x {
+    CGRect frame = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
+}
+
+- (CGFloat)lgh_top {
+    return self.frame.origin.y;
+}
+
+- (void)setLgh_op:(CGFloat)y {
+    CGRect frame = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
+}
+
+- (CGFloat)lgh_right {
+    return self.frame.origin.x + self.frame.size.width;
+}
+
+- (void)setLgh_ight:(CGFloat)right {
+    CGRect frame = self.frame;
+    frame.origin.x = right - frame.size.width;
+    self.frame = frame;
+}
+
+- (CGFloat)lgh_bottom {
+    return self.frame.origin.y + self.frame.size.height;
+}
+
+- (void)setLgh_ottom:(CGFloat)bottom {
+    CGRect frame = self.frame;
+    frame.origin.y = bottom - frame.size.height;
+    self.frame = frame;
+}
+
+
 
 // 从父类上移除时，会调用
 - (void)willMoveToSuperview:(UIView *)newSuperview {
