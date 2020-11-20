@@ -134,6 +134,9 @@
 		5BA222C52566894B00F8B583 /* YYSimpleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222BF2566894B00F8B583 /* YYSimpleWebViewController.m */; };
 		5BA222C62566894B00F8B583 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222C02566894B00F8B583 /* YYFPSLabel.m */; };
 		5BA222C72566894B00F8B583 /* YYPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222C12566894B00F8B583 /* YYPhotoGroupView.m */; };
+		5BA222D92567D58D00F8B583 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222D82567D58C00F8B583 /* WBStatusHelper.m */; };
+		5BA222E12567D75400F8B583 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222E02567D75400F8B583 /* WBStatusLayout.m */; };
+		5BA222EB2567D7E600F8B583 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222EA2567D7E600F8B583 /* WBStatusCell.m */; };
 		77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712D4255EF144008564E9 /* LGHButtonMaker.m */; };
 		77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712D6255EF144008564E9 /* LGHViewMaker.m */; };
 		77F712E4255EF144008564E9 /* LGHTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712DA255EF144008564E9 /* LGHTableViewMaker.m */; };
@@ -453,6 +456,12 @@
 		5BA222C22566894B00F8B583 /* YYSimpleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSimpleWebViewController.h; sourceTree = "<group>"; };
 		5BA222C32566894B00F8B583 /* YYPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoGroupView.h; sourceTree = "<group>"; };
 		5BA222C42566894B00F8B583 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		5BA222D72567D58C00F8B583 /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
+		5BA222D82567D58C00F8B583 /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
+		5BA222E02567D75400F8B583 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
+		5BA222E52567D77500F8B583 /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
+		5BA222E92567D7D600F8B583 /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
+		5BA222EA2567D7E600F8B583 /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
 		6B6879BD910102669E5FBA37 /* Pods-Litter_itemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_itemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Litter_itemUITests/Pods-Litter_itemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF9E7066346D6CF952497F8 /* Pods-Litter_item.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_item.debug.xcconfig"; path = "Target Support Files/Pods-Litter_item/Pods-Litter_item.debug.xcconfig"; sourceTree = "<group>"; };
 		77F712D3255EF144008564E9 /* LGHTableViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHTableViewMaker.h; sourceTree = "<group>"; };
@@ -823,6 +832,12 @@
 			children = (
 				5BA2202F2566665D00F8B583 /* WBModel.h */,
 				5BA220302566665D00F8B583 /* WBModel.m */,
+				5BA222E52567D77500F8B583 /* WBStatusLayout.h */,
+				5BA222E02567D75400F8B583 /* WBStatusLayout.m */,
+				5BA222E92567D7D600F8B583 /* WBStatusCell.h */,
+				5BA222EA2567D7E600F8B583 /* WBStatusCell.m */,
+				5BA222D72567D58C00F8B583 /* WBStatusHelper.h */,
+				5BA222D82567D58C00F8B583 /* WBStatusHelper.m */,
 			);
 			path = WBHome;
 			sourceTree = "<group>";
@@ -1637,6 +1652,7 @@
 				5BA222282566845600F8B583 /* YYWebImageManager.m in Sources */,
 				5BA222302566845600F8B583 /* MKAnnotationView+YYWebImage.m in Sources */,
 				5BA2226E2566845600F8B583 /* YYKeychain.m in Sources */,
+				5BA222EB2567D7E600F8B583 /* WBStatusCell.m in Sources */,
 				5BA2222E2566845600F8B583 /* UIButton+YYWebImage.m in Sources */,
 				77F71388255FD0DB008564E9 /* LGHTabbar02ViewController.m in Sources */,
 				5BA222732566845600F8B583 /* YYReachability.m in Sources */,
@@ -1644,10 +1660,12 @@
 				5BA2224E2566845600F8B583 /* UIApplication+YYAdd.m in Sources */,
 				5BA222632566845600F8B583 /* NSNotificationCenter+YYAdd.m in Sources */,
 				5BA222612566845600F8B583 /* NSDate+YYAdd.m in Sources */,
+				5BA222E12567D75400F8B583 /* WBStatusLayout.m in Sources */,
 				77F712F9255EF822008564E9 /* LGHCheckboxViewController.m in Sources */,
 				5BA2226F2566845600F8B583 /* YYGestureRecognizer.m in Sources */,
 				5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */,
 				77F712E4255EF144008564E9 /* LGHTableViewMaker.m in Sources */,
+				5BA222D92567D58D00F8B583 /* WBStatusHelper.m in Sources */,
 				5BA2226B2566845600F8B583 /* YYSentinel.m in Sources */,
 				5BA222702566845600F8B583 /* YYFileHash.m in Sources */,
 				5BA2223B2566845600F8B583 /* YYTextLayout.m in Sources */,
