@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		46DF12B36B438812421C5E03 /* libPods-Litter_itemUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24264674BF1FCE6E9AE0BF88 /* libPods-Litter_itemUITests.a */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
-		5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Redme.md */; };
+		5B76B2DA25624F1C00E5C74D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Readme.md */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
 		5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */; };
@@ -222,7 +222,7 @@
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5B76B2B3255E901900E5C74D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		5B76B2D925624F1C00E5C74D /* Redme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redme.md; sourceTree = "<group>"; };
+		5B76B2D925624F1C00E5C74D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		5B76B2EF25628D6B00E5C74D /* LGHKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVCViewController.h; sourceTree = "<group>"; };
 		5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVCViewController.m; sourceTree = "<group>"; };
 		5B76B2F825628D9100E5C74D /* LGHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHPerson.h; sourceTree = "<group>"; };
@@ -738,7 +738,7 @@
 				5B8FF297255E3565007A74E4 /* LaunchScreen.storyboard */,
 				5B8FF29A255E3565007A74E4 /* Info.plist */,
 				5B8FF29B255E3565007A74E4 /* main.m */,
-				5B76B2D925624F1C00E5C74D /* Redme.md */,
+				5B76B2D925624F1C00E5C74D /* Readme.md */,
 			);
 			path = Litter_item;
 			sourceTree = "<group>";
@@ -768,7 +768,6 @@
 				5BA01B3C2563D39D0062E210 /* LGHBaseTableViewController.m */,
 				5BA01B592563DDD60062E210 /* LGHBaseWKWebViewController.h */,
 				5BA01B5A2563DDD60062E210 /* LGHBaseWKWebViewController.m */,
-				5BA01B372563D39D0062E210 /* MVP */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -1136,11 +1135,19 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		5BA222F3256B865F00F8B583 /* UITableViewCell的折叠 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UITableViewCell的折叠";
+			sourceTree = "<group>";
+		};
 		77F712D1255EF052008564E9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
 				5BA01B352563D39D0062E210 /* BaseViewController */,
 				77F712D2255EF144008564E9 /* LGHMakeViewTools */,
+				5BA01B372563D39D0062E210 /* MVP */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -1280,6 +1287,7 @@
 				77F713EB25604791008564E9 /* 商品内容+详情 */,
 				77F714612562BC23008564E9 /* 商品内容+详情+商品推荐 */,
 				5BA220052565299700F8B583 /* 微博复杂页面的布局 */,
+				5BA222F3256B865F00F8B583 /* UITableViewCell的折叠 */,
 			);
 			path = "页面布局";
 			sourceTree = "<group>";
@@ -1475,7 +1483,7 @@
 				77F713C725600C79008564E9 /* tabbar_shop_pressed@3x.png in Resources */,
 				77F713F92560E768008564E9 /* Discuss.plist in Resources */,
 				5BA220272566613400F8B583 /* weibo_7.json in Resources */,
-				5B76B2DA25624F1C00E5C74D /* Redme.md in Resources */,
+				5B76B2DA25624F1C00E5C74D /* Readme.md in Resources */,
 				77F71373255FBA31008564E9 /* tabbar_two_selected@3x.png in Resources */,
 				77F713B225600C5C008564E9 /* tabbar_device@3x.png in Resources */,
 				77F7137C255FBA31008564E9 /* tabbar_two_selected@2x.png in Resources */,
