@@ -1899,6 +1899,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fsanitize-coverage=trace-pc-guard";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1920,6 +1921,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fsanitize-coverage=trace-pc-guard";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

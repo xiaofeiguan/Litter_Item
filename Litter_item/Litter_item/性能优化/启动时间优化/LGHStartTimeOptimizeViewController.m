@@ -38,6 +38,7 @@
     ]];
     
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
+        cell.textLabel.numberOfLines = 0;
         cell.textLabel.text = model[@"title"];
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
         NSLog(@"点击了%ld行cell", (long)indexPath.row);
