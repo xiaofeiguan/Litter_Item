@@ -1,9 +1,12 @@
 +[YYTextKeyboardManager load]
 ___copy_helper_block_e8_
 +[ViewController load]
+_$s11Litter_item9SwiftTestC05swiftD0yyFZTo
+_$s11Litter_item9SwiftTestC05swiftD0yyFZ
+_$ss5print_9separator10terminatoryypd_S2StFfA0_
+_$ss5print_9separator10terminatoryypd_S2StFfA1_
 _main
 -[AppDelegate application:didFinishLaunchingWithOptions:]
--[AppDelegate application:configurationForConnectingSceneSession:options:]
 -[SceneDelegate window]
 -[SceneDelegate setWindow:]
 -[SceneDelegate scene:willConnectToSession:options:]
