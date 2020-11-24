@@ -1,22 +1,17 @@
 //
-//  LGHStartTimeOptimizeViewController.m
+//  LGHTableViewFoldController.m
 //  Litter_item
 //
-//  Created by 小肥观 on 2020/11/17.
+//  Created by 刘观华 on 2020/11/24.
 //
 
-/*
-  启动时间优化: 
- 
- */
-
-#import "LGHStartTimeOptimizeViewController.h"
-
-@interface LGHStartTimeOptimizeViewController ()
+#import "LGHTableViewFoldController.h"
+#import "LGHBaseTableDataSource.h"
+@interface LGHTableViewFoldController ()
 @property (nonatomic, strong) LGHBaseTableDataSource * dataSource;
 @end
 
-@implementation LGHStartTimeOptimizeViewController
+@implementation LGHTableViewFoldController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,22 +37,10 @@
     ]];
     
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
-        cell.textLabel.numberOfLines = 0;
-        cell.textLabel.text = model[@"title"];
+        
+        
+        
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
-        NSLog(@"点击了%ld行cell", (long)indexPath.row);
-        NSDictionary *data = self.datas[indexPath.row];
-        NSString *url = data[@"url"];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            LGHBaseWKWebViewController *webVC = [[LGHBaseWKWebViewController alloc]initWithUrl:url];
-            if (self.navigationController) {
-                [self.navigationController pushViewController:webVC animated:NO];
-            }else{
-                [self presentViewController:webVC animated:YES completion:^{
-                    
-                }];
-            }
-        });
         
     }];
     
@@ -66,8 +49,8 @@
     self.tableView.delegate = self.dataSource;
     self.tableView.dataSource = self.dataSource;
     [self.tableView reloadData];
-    
 }
+
 
 
 @end

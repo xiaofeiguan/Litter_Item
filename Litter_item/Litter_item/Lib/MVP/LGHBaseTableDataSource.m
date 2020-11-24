@@ -35,14 +35,20 @@
 }
 
 - (id)modelsAtIndexPath:(NSIndexPath *)indexPath{
-    return (self.dataArray.count > indexPath.row) ? self.dataArray[indexPath.row] : nil;
+    NSArray *rowArray = self.dataArray[indexPath.section];
+    return (rowArray.count > indexPath.row) ? rowArray[indexPath.row] : nil;
 }
 
 
 #pragma mark - UITableViewDelegate
 
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return (!self.dataArray)?0:self.dataArray.count;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return (!self.dataArray)?1:self.dataArray.count;
+    NSArray *rowArray = self.dataArray[section];
+    return (!rowArray)?0:rowArray.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -61,7 +67,6 @@
         self.selectBlock(indexPath);
     }
 }
-
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 44;
