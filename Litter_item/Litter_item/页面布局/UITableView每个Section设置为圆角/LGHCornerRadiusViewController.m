@@ -9,13 +9,11 @@
 #import "LGHBaseTableDataSource.h"
 
 @interface LGHCornerRadiusViewController ()
-{
-    CGFloat cornerRadius;
-    CGRect bounds;
-}
-@end
+@property (nonatomic, assign) CGFloat cornerRadius;
 
-@interface LGHCornerRadiusViewController ()
+@property (nonatomic, assign) CGRect bounds;
+
+
 @property (nonatomic, strong) LGHBaseTableDataSource * dataSource;
 @end
 
@@ -43,7 +41,9 @@
     ]
     ] mutableCopy];
     
+    __weak __typeof(self)weakSelf = self;
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
         cell.textLabel.numberOfLines = 0;
         cell.textLabel.text = model[@"title"];
         // cell背景透明，否则不会出现圆角效果
@@ -53,17 +53,17 @@
         // 创建path,保存绘制的路径
         CGMutablePathRef pathRef = CGPathCreateMutable();
         // cell的bounds
-        bounds = CGRectInset(cell.bounds, 0, 0);
+        strongSelf.bounds = CGRectInset(cell.contentView.bounds, 0, 0);
         // 每组第一行cell
         if (indexPath.row == 0) {
             // 起点： 左下角
-            CGPathMoveToPoint(pathRef, nil, CGRectGetMinX(bounds), CGRectGetMaxY(bounds));
+            CGPathMoveToPoint(pathRef, nil, CGRectGetMinX(strongSelf.bounds), CGRectGetMaxY(strongSelf.bounds));
             // cell左上角 -> 顶端中点
-            CGPathAddArcToPoint(pathRef, nil, CGRectGetMinX(bounds), CGRectGetMinY(bounds), CGRectGetMidX(bounds), CGRectGetMinY(bounds), cornerRadius);
+            CGPathAddArcToPoint(pathRef, nil, CGRectGetMinX(strongSelf.bounds), CGRectGetMinY(strongSelf.bounds), CGRectGetMidX(strongSelf.bounds), CGRectGetMinY(strongSelf.bounds), strongSelf.cornerRadius);
             // cell右上角 -> 右端中点
-            CGPathAddArcToPoint(pathRef, nil, CGRectGetMaxX(bounds), CGRectGetMinY(bounds), CGRectGetMaxX(bounds), CGRectGetMidY(bounds), cornerRadius);
+            CGPathAddArcToPoint(pathRef, nil, CGRectGetMaxX(strongSelf.bounds), CGRectGetMinY(strongSelf.bounds), CGRectGetMaxX(strongSelf.bounds), CGRectGetMidY(strongSelf.bounds), strongSelf.cornerRadius);
             // cell右下角
-            CGPathAddLineToPoint(pathRef, nil, CGRectGetMaxX(bounds), CGRectGetMaxY(bounds));
+            CGPathAddLineToPoint(pathRef, nil, CGRectGetMaxX(strongSelf.bounds), CGRectGetMaxY(strongSelf.bounds));
             // 绘制cell分隔线
             // addLine = YES;
         }
@@ -72,13 +72,13 @@
         NSArray *array = self.datas[indexPath.section];
         if (indexPath.row == array.count-1) {
             // 初始起点为cell的左上角坐标
-            CGPathMoveToPoint(pathRef, nil, CGRectGetMinX(bounds), CGRectGetMinY(bounds));
+            CGPathMoveToPoint(pathRef, nil, CGRectGetMinX(strongSelf.bounds), CGRectGetMinY(strongSelf.bounds));
             // cell左下角 -> 底端中点
-            CGPathAddArcToPoint(pathRef, nil, CGRectGetMinX(bounds), CGRectGetMaxY(bounds), CGRectGetMidX(bounds), CGRectGetMaxY(bounds), cornerRadius);
+            CGPathAddArcToPoint(pathRef, nil, CGRectGetMinX(strongSelf.bounds), CGRectGetMaxY(strongSelf.bounds), CGRectGetMidX(strongSelf.bounds), CGRectGetMaxY(strongSelf.bounds), strongSelf.cornerRadius);
             // cell右下角 -> 右端中点
-            CGPathAddArcToPoint(pathRef, nil, CGRectGetMaxX(bounds), CGRectGetMaxY(bounds), CGRectGetMaxX(bounds), CGRectGetMidY(bounds), cornerRadius);
+            CGPathAddArcToPoint(pathRef, nil, CGRectGetMaxX(strongSelf.bounds), CGRectGetMaxY(strongSelf.bounds), CGRectGetMaxX(strongSelf.bounds), CGRectGetMidY(strongSelf.bounds), strongSelf.cornerRadius);
             // cell右上角
-            CGPathAddLineToPoint(pathRef, nil, CGRectGetMaxX(bounds), CGRectGetMinY(bounds));
+            CGPathAddLineToPoint(pathRef, nil, CGRectGetMaxX(strongSelf.bounds), CGRectGetMinY(strongSelf.bounds));
         }
         // 绘制完毕，路径信息赋值给layer
         layer.path = pathRef;
@@ -88,7 +88,7 @@
         layer.fillColor = [UIColor redColor].CGColor;
         
         // 创建和cell尺寸相同的view
-        UIView *backView = [[UIView alloc] initWithFrame:bounds];
+        UIView *backView = [[UIView alloc] initWithFrame:strongSelf.bounds];
         // 添加layer给backView
         [backView.layer addSublayer:layer];
         // backView的颜色
