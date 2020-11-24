@@ -34,7 +34,11 @@
         @{
             @"title":@"基于二进制文件重排的解决方案 APP启动速度提升超15%",
             @"url":@"https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247485101&idx=1&sn=abbbb6da1aba37a04047fc210363bcc9&scene=21&token=2051547505&lang=zh_CN"
-        }
+        },
+        @{
+            @"title":@"利用Clang插桩，获取所有符号，实现二进制重排",
+            @"url":@"http://note.youdao.com/s/CDN4dO76"}
+        
     ]];
     
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {

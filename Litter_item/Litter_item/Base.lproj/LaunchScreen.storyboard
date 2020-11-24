@@ -20,16 +20,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lanuch" translatesAutoresizingMaskIntoConstraints="NO" id="ufJ-NM-vps">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="ufJ-NM-vps">
+                                <rect key="frame" x="50" y="291" width="314" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ufJ-NM-vps" secondAttribute="height" id="fFx-7M-gfn"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="ufJ-NM-vps" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8we-Fb-Q35"/>
-                            <constraint firstItem="ufJ-NM-vps" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="BOX-Ru-UDU"/>
-                            <constraint firstAttribute="bottom" secondItem="ufJ-NM-vps" secondAttribute="bottom" id="r9N-cJ-SBl"/>
-                            <constraint firstAttribute="trailing" secondItem="ufJ-NM-vps" secondAttribute="trailing" id="wcf-pT-fsR"/>
+                            <constraint firstItem="ufJ-NM-vps" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0vU-6x-gOS"/>
+                            <constraint firstItem="ufJ-NM-vps" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J2C-Zj-Zgc"/>
+                            <constraint firstItem="ufJ-NM-vps" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="NOu-aR-l3Y"/>
+                            <constraint firstAttribute="trailing" secondItem="ufJ-NM-vps" secondAttribute="trailing" constant="50" id="bkc-g8-O4k"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,9 +42,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Lanuch" width="1125" height="2436"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="Launch" width="256" height="256"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

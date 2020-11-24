@@ -6,10 +6,8 @@
 //
 
 #import "ViewController.h"
-#include <stdint.h>
-#include <stdio.h>
-#include <sanitizer/coverage_interface.h>
-
+#import "LGHStartuptimeOptimization.h"
+#import "Litter_item-Swift.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray * datas;
@@ -24,39 +22,26 @@
 
 @end
 
+
+
 @implementation ViewController
 
-/**
- 插桩：
- 
- */
-void __sanitizer_cov_trace_pc_guard_init(uint32_t *start,
-                                                    uint32_t *stop) {
-    static uint64_t N;  // Counter for the guards.
-    if (start == stop || *start) return;  // Initialize only once.
-    printf("<<<INIT>>>: %p %p\n", start, stop);
-    for (uint32_t *x = start; x < stop; x++)
-    *x = ++N;  // Guards should start from 1.
++(void)load{
+    [SwiftTest swiftTest];
 }
-
-void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
-    if (!*guard) return;
-    // 当前函数返回到上一个调用的地址
-    void *PC = __builtin_return_address(0);
-    char PcDescr[1024];
-    // This function is a part of the sanitizer run-time.
-    // To use it, link with AddressSanitizer or other sanitizer.
-    printf("<<<guard>>>: %p %x PC %s\n", guard, *guard, PcDescr);
-}
-
-
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%s",__func__);
+    // 启动时间优化
+    [LGHStartuptimeOptimization getOrderFile];
+    
     self.title = @"iOSTips";
-    // @"左滑样式",@"自定义Tabbar",@"自定义UITableView编辑状态下的checkbox",@"APP首页的卡顿优化(小鸡游戏世界为例)",@"WKWebView+UITableView布局"
+    [self setupTableView];
+}
+
+-(void)setupTableView{
+    //@"左滑样式",@"自定义Tabbar",@"自定义UITableView编辑状态下的checkbox",@"APP首页的卡顿优化(小鸡游戏世界为例)",@"WKWebView+UITableView布局"
     NSString *path = [[NSBundle mainBundle]pathForResource:@"item" ofType:@"plist"];
     self.datas = [NSArray arrayWithContentsOfFile:path];
     CGRect ff = (CGRect)self.view.frame;
@@ -78,6 +63,17 @@ void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
     [self tableView:self.leftTableView didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
 }
 
+
+
+
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    getInfo();
+    
+}
+
+#pragma mark - UITableViewDelegate
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return  1;
@@ -135,19 +131,6 @@ void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
             
         }
     }
-}
-
-
-
--(void)test{
-    
-}
-
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-    [self test];
-    
 }
 
 
