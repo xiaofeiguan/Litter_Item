@@ -225,7 +225,7 @@
 		5B1AAB56256D0119003FA5BD /* LGHStartuptimeOptimization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHStartuptimeOptimization.m; sourceTree = "<group>"; };
 		5B1AAB5B256D0505003FA5BD /* Litter_item-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Litter_item-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B1AAB5C256D0505003FA5BD /* Swift_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Test.swift; sourceTree = "<group>"; };
-		5B1AAB64256D175B003FA5BD /* lgh_order_file.order */ = {isa = PBXFileReference; lastKnownFileType = file; path = lgh_order_file.order; sourceTree = SOURCE_ROOT; };
+		5B1AAB64256D175B003FA5BD /* lgh_order_file.order */ = {isa = PBXFileReference; lastKnownFileType = text; path = lgh_order_file.order; sourceTree = SOURCE_ROOT; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
