@@ -178,6 +178,38 @@
 				<key>isPush</key>
 				<string>1</string>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>内存管理</string>
+				<key>class</key>
+				<string>LGHARCViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Timer问题解决方案1</string>
+				<key>class</key>
+				<string>LGHTimer01ViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Timer问题解决方案2</string>
+				<key>class</key>
+				<string>LGHTimer02ViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Timer问题解决方案3</string>
+				<key>class</key>
+				<string>LGHTimer03ViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
 		</array>
 	</dict>
 </array>

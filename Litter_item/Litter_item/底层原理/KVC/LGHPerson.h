@@ -10,9 +10,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LGHPerson : NSObject
-@property (nonatomic, copy,readonly) NSString * uuid;
+@property (nonatomic,copy,readonly) NSString * uuid;
 
-@property (nonatomic,readonly) NSString * name;
+@property (nonatomic,readonly,strong) NSString * name;
+
+@property (nonatomic,readonly,assign) NSInteger classID;
+
 @end
 
 NS_ASSUME_NONNULL_END

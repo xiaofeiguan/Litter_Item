@@ -19,8 +19,15 @@
         _uuid = @"gfffffffff";
         _name = @"user";
         _className = @"fffff";
+        _classID = 10;
     }
     return self;
 }
+
+
+
+
+
+
 
 @end

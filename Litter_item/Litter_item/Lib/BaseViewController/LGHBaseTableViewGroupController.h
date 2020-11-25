@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHBaseTableViewGroupController : UIViewController
+@interface LGHBaseTableViewGroupController : LGHBaseViewController
 @property (nonatomic, strong) UITableView * tableView;
 
 @property (nonatomic, strong) NSMutableArray * datas;

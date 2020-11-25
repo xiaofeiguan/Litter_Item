@@ -11,6 +11,14 @@
 		5B1AAB57256D0119003FA5BD /* LGHStartuptimeOptimization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1AAB56256D0119003FA5BD /* LGHStartuptimeOptimization.m */; };
 		5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1AAB5C256D0505003FA5BD /* Swift_Test.swift */; };
 		5B1AAB65256D175B003FA5BD /* lgh_order_file.order in Resources */ = {isa = PBXBuildFile; fileRef = 5B1AAB64256D175B003FA5BD /* lgh_order_file.order */; };
+		5B217BAD256E358000B311BA /* LGHARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BAC256E358000B311BA /* LGHARCViewController.m */; };
+		5B217BCF256E470E00B311BA /* LGHTimer02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BCE256E470E00B311BA /* LGHTimer02ViewController.m */; };
+		5B217BD8256E471D00B311BA /* LGHTimer03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BD7256E471D00B311BA /* LGHTimer03ViewController.m */; };
+		5B217BDE256E47D800B311BA /* LGHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BDD256E47D800B311BA /* LGHBaseViewController.m */; };
+		5B217BEC256E4BCC00B311BA /* LGHPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BEA256E4BCC00B311BA /* LGHPushViewController.m */; };
+		5B217BED256E4BCC00B311BA /* LGHTimer01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BEB256E4BCC00B311BA /* LGHTimer01ViewController.m */; };
+		5B217BF3256E4F9F00B311BA /* LGHTimerBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */; };
+		5B217BFF256E57EE00B311BA /* LGHProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BFE256E57EE00B311BA /* LGHProxy.m */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2DA25624F1C00E5C74D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Readme.md */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
@@ -229,6 +237,22 @@
 		5B1AAB5B256D0505003FA5BD /* Litter_item-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Litter_item-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B1AAB5C256D0505003FA5BD /* Swift_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Test.swift; sourceTree = "<group>"; };
 		5B1AAB64256D175B003FA5BD /* lgh_order_file.order */ = {isa = PBXFileReference; lastKnownFileType = text; path = lgh_order_file.order; sourceTree = SOURCE_ROOT; };
+		5B217BAB256E358000B311BA /* LGHARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHARCViewController.h; sourceTree = "<group>"; };
+		5B217BAC256E358000B311BA /* LGHARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHARCViewController.m; sourceTree = "<group>"; };
+		5B217BCD256E470E00B311BA /* LGHTimer02ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHTimer02ViewController.h; sourceTree = "<group>"; };
+		5B217BCE256E470E00B311BA /* LGHTimer02ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTimer02ViewController.m; sourceTree = "<group>"; };
+		5B217BD6256E471D00B311BA /* LGHTimer03ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHTimer03ViewController.h; sourceTree = "<group>"; };
+		5B217BD7256E471D00B311BA /* LGHTimer03ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTimer03ViewController.m; sourceTree = "<group>"; };
+		5B217BDC256E47D800B311BA /* LGHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHBaseViewController.h; sourceTree = "<group>"; };
+		5B217BDD256E47D800B311BA /* LGHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHBaseViewController.m; sourceTree = "<group>"; };
+		5B217BE8256E4BCC00B311BA /* LGHPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHPushViewController.h; sourceTree = "<group>"; };
+		5B217BE9256E4BCC00B311BA /* LGHTimer01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHTimer01ViewController.h; sourceTree = "<group>"; };
+		5B217BEA256E4BCC00B311BA /* LGHPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHPushViewController.m; sourceTree = "<group>"; };
+		5B217BEB256E4BCC00B311BA /* LGHTimer01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHTimer01ViewController.m; sourceTree = "<group>"; };
+		5B217BF1256E4F9F00B311BA /* LGHTimerBroker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHTimerBroker.h; sourceTree = "<group>"; };
+		5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTimerBroker.m; sourceTree = "<group>"; };
+		5B217BFD256E57EE00B311BA /* LGHProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHProxy.h; sourceTree = "<group>"; };
+		5B217BFE256E57EE00B311BA /* LGHProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHProxy.m; sourceTree = "<group>"; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -641,6 +665,48 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5B217BAA256E355400B311BA /* 内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				5B217BAB256E358000B311BA /* LGHARCViewController.h */,
+				5B217BAC256E358000B311BA /* LGHARCViewController.m */,
+			);
+			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		5B217BB1256E3FB000B311BA /* Timer问题解决方案一 */ = {
+			isa = PBXGroup;
+			children = (
+				5B217BE9256E4BCC00B311BA /* LGHTimer01ViewController.h */,
+				5B217BEB256E4BCC00B311BA /* LGHTimer01ViewController.m */,
+				5B217BE8256E4BCC00B311BA /* LGHPushViewController.h */,
+				5B217BEA256E4BCC00B311BA /* LGHPushViewController.m */,
+			);
+			path = "Timer问题解决方案一";
+			sourceTree = "<group>";
+		};
+		5B217BB2256E3FE500B311BA /* Timer问题解决方案二(中介者) */ = {
+			isa = PBXGroup;
+			children = (
+				5B217BCD256E470E00B311BA /* LGHTimer02ViewController.h */,
+				5B217BCE256E470E00B311BA /* LGHTimer02ViewController.m */,
+				5B217BF1256E4F9F00B311BA /* LGHTimerBroker.h */,
+				5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */,
+			);
+			path = "Timer问题解决方案二(中介者)";
+			sourceTree = "<group>";
+		};
+		5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类) */ = {
+			isa = PBXGroup;
+			children = (
+				5B217BD6256E471D00B311BA /* LGHTimer03ViewController.h */,
+				5B217BD7256E471D00B311BA /* LGHTimer03ViewController.m */,
+				5B217BFD256E57EE00B311BA /* LGHProxy.h */,
+				5B217BFE256E57EE00B311BA /* LGHProxy.m */,
+			);
+			path = "Timer问题解决方案三(NSProxy虚基类)";
+			sourceTree = "<group>";
+		};
 		5B76B298255E89F400E5C74D /* 自定义UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -684,6 +750,10 @@
 			children = (
 				5B76B2EE25628D2900E5C74D /* KVC */,
 				5B76B30B256296D000E5C74D /* KVO */,
+				5B217BAA256E355400B311BA /* 内存管理 */,
+				5B217BB1256E3FB000B311BA /* Timer问题解决方案一 */,
+				5B217BB2256E3FE500B311BA /* Timer问题解决方案二(中介者) */,
+				5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类) */,
 			);
 			path = "底层原理";
 			sourceTree = "<group>";
@@ -788,6 +858,8 @@
 				77D0E213256D5D1E002E69F0 /* LGHBaseTableViewGroupController.m */,
 				5BA01B592563DDD60062E210 /* LGHBaseWKWebViewController.h */,
 				5BA01B5A2563DDD60062E210 /* LGHBaseWKWebViewController.m */,
+				5B217BDC256E47D800B311BA /* LGHBaseViewController.h */,
+				5B217BDD256E47D800B311BA /* LGHBaseViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -1654,6 +1726,8 @@
 				5BA2224C2566845600F8B583 /* UIColor+YYAdd.m in Sources */,
 				5BA222642566845600F8B583 /* NSDictionary+YYAdd.m in Sources */,
 				5BA2222B2566845600F8B583 /* YYImageCoder.m in Sources */,
+				5B217BFF256E57EE00B311BA /* LGHProxy.m in Sources */,
+				5B217BED256E4BCC00B311BA /* LGHTimer01ViewController.m in Sources */,
 				5BA222712566845600F8B583 /* YYTimer.m in Sources */,
 				5BA220462566782D00F8B583 /* YYControl.m in Sources */,
 				5BA222682566845600F8B583 /* YYWeakProxy.m in Sources */,
@@ -1662,6 +1736,7 @@
 				5BA2225E2566845600F8B583 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				5BA2225A2566845600F8B583 /* NSBundle+YYAdd.m in Sources */,
 				5BA222272566845600F8B583 /* YYImageCache.m in Sources */,
+				5B217BDE256E47D800B311BA /* LGHBaseViewController.m in Sources */,
 				5BA2223D2566845600F8B583 /* YYTextSelectionView.m in Sources */,
 				77F714642562BD57008564E9 /* LGHTableWebTableViewController.m in Sources */,
 				5BA222602566845600F8B583 /* NSObject+YYAddForARC.m in Sources */,
@@ -1686,6 +1761,7 @@
 				5BA222332566845600F8B583 /* YYWebImageOperation.m in Sources */,
 				5BA222402566845600F8B583 /* YYLabel.m in Sources */,
 				5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */,
+				5B217BD8256E471D00B311BA /* LGHTimer03ViewController.m in Sources */,
 				5BA22013256656FF00F8B583 /* LGHWeiboHomeViewController.m in Sources */,
 				5BA2223E2566845600F8B583 /* YYTextKeyboardManager.m in Sources */,
 				5B1AAB57256D0119003FA5BD /* LGHStartuptimeOptimization.m in Sources */,
@@ -1717,6 +1793,7 @@
 				77F712E4255EF144008564E9 /* LGHTableViewMaker.m in Sources */,
 				5BA222D92567D58D00F8B583 /* WBStatusHelper.m in Sources */,
 				5BA2226B2566845600F8B583 /* YYSentinel.m in Sources */,
+				5B217BAD256E358000B311BA /* LGHARCViewController.m in Sources */,
 				5BA222702566845600F8B583 /* YYFileHash.m in Sources */,
 				5BA2223B2566845600F8B583 /* YYTextLayout.m in Sources */,
 				5BA01B3D2563D39D0062E210 /* LGHBaseTableDataSource.m in Sources */,
@@ -1748,6 +1825,7 @@
 				5BA2225B2566845600F8B583 /* NSObject+YYAdd.m in Sources */,
 				5BA2222D2566845600F8B583 /* _YYWebImageSetter.m in Sources */,
 				5BA2224B2566845600F8B583 /* UIBezierPath+YYAdd.m in Sources */,
+				5B217BF3256E4F9F00B311BA /* LGHTimerBroker.m in Sources */,
 				77F713A1256006DE008564E9 /* UIImage+GSExtension.m in Sources */,
 				5BA2225D2566845600F8B583 /* NSThread+YYAdd.m in Sources */,
 				5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */,
@@ -1757,8 +1835,10 @@
 				5BA222262566845600F8B583 /* YYMemoryCache.m in Sources */,
 				5BA222592566845600F8B583 /* NSNumber+YYAdd.m in Sources */,
 				5BA222482566845600F8B583 /* YYTextArchiver.m in Sources */,
+				5B217BEC256E4BCC00B311BA /* LGHPushViewController.m in Sources */,
 				5BA222312566845600F8B583 /* CALayer+YYWebImage.m in Sources */,
 				5BA220472566782D00F8B583 /* YYTableView.m in Sources */,
+				5B217BCF256E470E00B311BA /* LGHTimer02ViewController.m in Sources */,
 				5BA222362566845600F8B583 /* YYTextView.m in Sources */,
 				5BA222622566845600F8B583 /* NSString+YYAdd.m in Sources */,
 			);

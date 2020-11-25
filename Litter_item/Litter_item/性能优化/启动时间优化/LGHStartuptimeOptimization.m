@@ -14,7 +14,10 @@
 #import <libkern/OSAtomic.h>
 @implementation LGHStartuptimeOptimization
 /*
-  博客见: 有道云笔记  第28次课-Clang插桩(听课笔记)
+博客见: 有道云笔记  第28次课-Clang插桩(听课笔记)
+推荐文章：
+ https://www.jianshu.com/p/bae1e9bddcc9
+ https://juejin.cn/post/6844904130406793224
  */
 
 //定义原子队列

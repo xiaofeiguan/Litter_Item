@@ -7,9 +7,10 @@
 
 #import <UIKit/UIKit.h>
 #import "LGHBaseTableViewController.h"
+#import "LGHBaseTableViewGroupController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHStartTimeOptimizeViewController : LGHBaseTableViewController
+@interface LGHStartTimeOptimizeViewController : LGHBaseTableViewGroupController
 
 @end
 

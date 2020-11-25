@@ -23,8 +23,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-//    [self test01];
-    [self test02];
+    [self test01];
+//    [self test02];
 }
 
 -(void)test01{
@@ -32,7 +32,9 @@
     [self.person setValue:@"11111111" forKey:@"uuid"];
     [self.person setValue:@"liuguanhua" forKey:@"name"];
     [self.person setValue:@"ggggggggg" forKey:@"className"];
-    NSLog(@"%@ - %@ -%@" , self.person.uuid,self.person.name,[self.person valueForKey:@"className"]);
+    [self.person setValue:@(12) forKey:@"classID"];
+    
+    NSLog(@"%@ - %@ -%@ -%ld" , self.person.uuid,self.person.name,[self.person valueForKey:@"className"],(long)self.person.classID);
 }
 
 -(void)test02{
