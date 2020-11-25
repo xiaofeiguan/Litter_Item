@@ -212,5 +212,20 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>源码分析</string>
+		<key>list</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>ReactiveCocoa</string>
+				<key>class</key>
+				<string>LGHReactiveCocoaViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>

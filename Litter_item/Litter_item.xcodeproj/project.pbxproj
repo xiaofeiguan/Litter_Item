@@ -149,6 +149,8 @@
 		5BA222E12567D75400F8B583 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222E02567D75400F8B583 /* WBStatusLayout.m */; };
 		5BA222EB2567D7E600F8B583 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA222EA2567D7E600F8B583 /* WBStatusCell.m */; };
 		77B60F88256D40E300A316DA /* LGHTableViewFoldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B60F87256D40E300A316DA /* LGHTableViewFoldController.m */; };
+		77C7CEE6256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C7CEE5256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m */; };
+		77C7CEEF256EBEAA00DC03E0 /* LGHRACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C7CEEE256EBEAA00DC03E0 /* LGHRACSignal.m */; };
 		77D0E208256D5646002E69F0 /* LGHCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D0E207256D5646002E69F0 /* LGHCornerRadiusViewController.m */; };
 		77D0E214256D5D1E002E69F0 /* LGHBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D0E213256D5D1E002E69F0 /* LGHBaseTableViewGroupController.m */; };
 		77F712E2255EF144008564E9 /* LGHButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F712D4255EF144008564E9 /* LGHButtonMaker.m */; };
@@ -501,6 +503,10 @@
 		6CF9E7066346D6CF952497F8 /* Pods-Litter_item.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_item.debug.xcconfig"; path = "Target Support Files/Pods-Litter_item/Pods-Litter_item.debug.xcconfig"; sourceTree = "<group>"; };
 		77B60F86256D40E300A316DA /* LGHTableViewFoldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHTableViewFoldController.h; sourceTree = "<group>"; };
 		77B60F87256D40E300A316DA /* LGHTableViewFoldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTableViewFoldController.m; sourceTree = "<group>"; };
+		77C7CEE4256EBDA700DC03E0 /* LGHReactiveCocoaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		77C7CEE5256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		77C7CEED256EBEAA00DC03E0 /* LGHRACSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHRACSignal.h; sourceTree = "<group>"; };
+		77C7CEEE256EBEAA00DC03E0 /* LGHRACSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHRACSignal.m; sourceTree = "<group>"; };
 		77D0E206256D5646002E69F0 /* LGHCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHCornerRadiusViewController.h; sourceTree = "<group>"; };
 		77D0E207256D5646002E69F0 /* LGHCornerRadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHCornerRadiusViewController.m; sourceTree = "<group>"; };
 		77D0E212256D5D1E002E69F0 /* LGHBaseTableViewGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHBaseTableViewGroupController.h; sourceTree = "<group>"; };
@@ -808,6 +814,7 @@
 				77F713D225601377008564E9 /* 页面布局 */,
 				5BA01B432563D3C00062E210 /* 性能优化 */,
 				5B76B2ED25628D0300E5C74D /* 底层原理 */,
+				77C7CEE2256EBC9C00DC03E0 /* 源码分析 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
@@ -1238,6 +1245,25 @@
 				77B60F87256D40E300A316DA /* LGHTableViewFoldController.m */,
 			);
 			path = "UITableViewCell的折叠";
+			sourceTree = "<group>";
+		};
+		77C7CEE2256EBC9C00DC03E0 /* 源码分析 */ = {
+			isa = PBXGroup;
+			children = (
+				77C7CEE3256EBD8900DC03E0 /* ReactiveCocoa */,
+			);
+			path = "源码分析";
+			sourceTree = "<group>";
+		};
+		77C7CEE3256EBD8900DC03E0 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				77C7CEE4256EBDA700DC03E0 /* LGHReactiveCocoaViewController.h */,
+				77C7CEE5256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m */,
+				77C7CEED256EBEAA00DC03E0 /* LGHRACSignal.h */,
+				77C7CEEE256EBEAA00DC03E0 /* LGHRACSignal.m */,
+			);
+			path = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
 		77D0E205256D55BE002E69F0 /* UITableView每个Section设置为圆角 */ = {
@@ -1830,7 +1856,9 @@
 				5BA2225D2566845600F8B583 /* NSThread+YYAdd.m in Sources */,
 				5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */,
 				5BA222572566845600F8B583 /* UIFont+YYAdd.m in Sources */,
+				77C7CEE6256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m in Sources */,
 				5BA222432566845600F8B583 /* NSParagraphStyle+YYText.m in Sources */,
+				77C7CEEF256EBEAA00DC03E0 /* LGHRACSignal.m in Sources */,
 				77F71303255EF892008564E9 /* CheckboxTableViewCell.m in Sources */,
 				5BA222262566845600F8B583 /* YYMemoryCache.m in Sources */,
 				5BA222592566845600F8B583 /* NSNumber+YYAdd.m in Sources */,
