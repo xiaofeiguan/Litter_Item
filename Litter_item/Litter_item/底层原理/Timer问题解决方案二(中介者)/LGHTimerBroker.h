@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype)lgh_initWithTimeInterval:(NSTimeInterval)timeInterval target:(id)target selector:(SEL)aSelector userInfo:(nullable id)userInfo  repeats:(BOOL)isRepeats;
 
+- (void)lgh_invalidate;
+
 @end
 
 NS_ASSUME_NONNULL_END

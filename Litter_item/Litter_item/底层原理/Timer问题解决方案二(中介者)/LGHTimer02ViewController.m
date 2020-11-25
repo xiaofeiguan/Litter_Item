@@ -7,8 +7,11 @@
 
 #import "LGHTimer02ViewController.h"
 #import "LGHPushViewController.h"
+#import "LGHTimerBroker.h"
 @interface LGHTimer02ViewController ()
-@property (nonatomic, strong) NSTimer * timer;
+@property (nonatomic, strong) LGHTimerBroker * timerBroker;
+
+@property (nonatomic, assign)  NSInteger num;
 @end
 
 @implementation LGHTimer02ViewController
@@ -22,9 +25,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.timer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(fireHomeTime) userInfo:nil repeats:YES];
-    // 加入到[NSRunLoop currentRunloop]
-    [[NSRunLoop currentRunLoop]addTimer:self.timer forMode:NSRunLoopCommonModes];
+    
+    // vc --> timerBroker  中介者
+    // 可以让vc释放
+    // 等到vc释放， 可以在timerBroker里面执行 [self.timer invalidate], 释放timer
+    /*
+    // 在LGHTimerBroker里面
+     if (broker.target) {
+        // ....
+     }else{
+     // 当vc释放，执行[broker.timer invalidate]
+     [broker.timer invalidate];
+     broker.timer = nil;
+     }
+     
+     */
+    
+    self.timerBroker = [[LGHTimerBroker alloc]lgh_initWithTimeInterval:1 target:self selector:@selector(fireHomeTime) userInfo:nil repeats:YES];
     
 }
 
@@ -32,10 +49,10 @@
     [self.navigationController pushViewController:[[LGHPushViewController alloc]init] animated:YES];
 }
 
-static int num = 0;
+
 -(void)fireHomeTime{
-    num++;
-    NSLog(@"num = %d",num);
+    self.num++;
+    NSLog(@"num = %ld",self.num);
 }
 
 

@@ -696,7 +696,7 @@
 			path = "Timer问题解决方案二(中介者)";
 			sourceTree = "<group>";
 		};
-		5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类) */ = {
+		5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类，此方法5星推荐) */ = {
 			isa = PBXGroup;
 			children = (
 				5B217BD6256E471D00B311BA /* LGHTimer03ViewController.h */,
@@ -704,7 +704,7 @@
 				5B217BFD256E57EE00B311BA /* LGHProxy.h */,
 				5B217BFE256E57EE00B311BA /* LGHProxy.m */,
 			);
-			path = "Timer问题解决方案三(NSProxy虚基类)";
+			path = "Timer问题解决方案三(NSProxy虚基类，此方法5星推荐)";
 			sourceTree = "<group>";
 		};
 		5B76B298255E89F400E5C74D /* 自定义UI */ = {
@@ -753,7 +753,7 @@
 				5B217BAA256E355400B311BA /* 内存管理 */,
 				5B217BB1256E3FB000B311BA /* Timer问题解决方案一 */,
 				5B217BB2256E3FE500B311BA /* Timer问题解决方案二(中介者) */,
-				5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类) */,
+				5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类，此方法5星推荐) */,
 			);
 			path = "底层原理";
 			sourceTree = "<group>";

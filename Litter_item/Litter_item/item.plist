@@ -196,7 +196,7 @@
 			</dict>
 			<dict>
 				<key>title</key>
-				<string>Timer问题解决方案2</string>
+				<string>Timer问题解决方案2(通过中介者解决)</string>
 				<key>class</key>
 				<string>LGHTimer02ViewController</string>
 				<key>isPush</key>
@@ -204,7 +204,7 @@
 			</dict>
 			<dict>
 				<key>title</key>
-				<string>Timer问题解决方案3</string>
+				<string>Timer问题解决方案三(NSProxy虚基类，此方法5星推荐)</string>
 				<key>class</key>
 				<string>LGHTimer03ViewController</string>
 				<key>isPush</key>
