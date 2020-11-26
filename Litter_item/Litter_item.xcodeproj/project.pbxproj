@@ -2077,7 +2077,7 @@
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/性能优化/启动时间优化/Litter_item-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2106,7 +2106,7 @@
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/性能优化/启动时间优化/Litter_item-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
