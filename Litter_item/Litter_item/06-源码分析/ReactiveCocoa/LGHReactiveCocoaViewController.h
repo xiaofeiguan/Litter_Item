@@ -6,10 +6,11 @@
 //
 
 #import "LGHBaseViewController.h"
-
+#import "LGHBaseTableViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHReactiveCocoaViewController : LGHBaseViewController
+@interface LGHReactiveCocoaViewController : LGHBaseTableViewController
+
 
 @end
 

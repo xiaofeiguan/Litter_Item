@@ -10,10 +10,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
+typedef void(^ReturnBlock)();
 
 @interface LGHRACSignal : NSObject
+@property(nonatomic,copy) ReturnBlock  returnBlock;
 
++(instancetype)createSingal:(ReturnBlock)block;
 
+-(void)subscribe;
 
 @end
 

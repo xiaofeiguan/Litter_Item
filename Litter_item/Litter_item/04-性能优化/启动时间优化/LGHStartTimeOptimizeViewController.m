@@ -50,15 +50,13 @@
                 @"url":@"https://www.jianshu.com/p/bae1e9bddcc9"}
         ]
     ] mutableCopy ];
-    
-//    [self.tableView  setValue:@(UITableViewStyleGrouped) forKey:@"style"];
     NSLog(@"%ld",self.tableView.style);
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
         cell.textLabel.numberOfLines = 0;
         cell.textLabel.text = model[@"title"];
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
         NSLog(@"点击了%ld行cell", (long)indexPath.row);
-        NSDictionary *data = self.datas[indexPath.row];
+        NSDictionary *data = self.datas[indexPath.section][indexPath.row];
         NSString *url = data[@"url"];
         dispatch_async(dispatch_get_main_queue(), ^{
             LGHBaseWKWebViewController *webVC = [[LGHBaseWKWebViewController alloc]initWithUrl:url];
