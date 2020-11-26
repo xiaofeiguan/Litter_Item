@@ -19,8 +19,8 @@
 		5B217BED256E4BCC00B311BA /* LGHTimer01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BEB256E4BCC00B311BA /* LGHTimer01ViewController.m */; };
 		5B217BF3256E4F9F00B311BA /* LGHTimerBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */; };
 		5B217BFF256E57EE00B311BA /* LGHProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BFE256E57EE00B311BA /* LGHProxy.m */; };
+		5B217C1E256F485500B311BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B217C1D256F485500B311BA /* README.md */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
-		5B76B2DA25624F1C00E5C74D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B76B2D925624F1C00E5C74D /* Readme.md */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
 		5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */; };
@@ -255,11 +255,11 @@
 		5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHTimerBroker.m; sourceTree = "<group>"; };
 		5B217BFD256E57EE00B311BA /* LGHProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHProxy.h; sourceTree = "<group>"; };
 		5B217BFE256E57EE00B311BA /* LGHProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHProxy.m; sourceTree = "<group>"; };
+		5B217C1D256F485500B311BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5B76B2B3255E901900E5C74D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		5B76B2D925624F1C00E5C74D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		5B76B2EF25628D6B00E5C74D /* LGHKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVCViewController.h; sourceTree = "<group>"; };
 		5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVCViewController.m; sourceTree = "<group>"; };
 		5B76B2F825628D9100E5C74D /* LGHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHPerson.h; sourceTree = "<group>"; };
@@ -827,13 +827,13 @@
 				5B8FF28F255E3563007A74E4 /* ViewController.h */,
 				5B8FF290255E3563007A74E4 /* ViewController.m */,
 				5B1AAB64256D175B003FA5BD /* lgh_order_file.order */,
+				5B217C1D256F485500B311BA /* README.md */,
 				5BA01B4E2563D3DD0062E210 /* item.plist */,
 				5B8FF292255E3563007A74E4 /* Main.storyboard */,
 				5B8FF295255E3565007A74E4 /* Assets.xcassets */,
 				5B8FF297255E3565007A74E4 /* LaunchScreen.storyboard */,
 				5B8FF29A255E3565007A74E4 /* Info.plist */,
 				5B8FF29B255E3565007A74E4 /* main.m */,
-				5B76B2D925624F1C00E5C74D /* Readme.md */,
 			);
 			path = Litter_item;
 			sourceTree = "<group>";
@@ -1595,6 +1595,7 @@
 				5BA01B4F2563D3DD0062E210 /* item.plist in Resources */,
 				77F71377255FBA31008564E9 /* tabbar_two_normal@3x.png in Resources */,
 				77F713B125600C5C008564E9 /* tabbar_device@2x.png in Resources */,
+				5B217C1E256F485500B311BA /* README.md in Resources */,
 				77F7141A256152A5008564E9 /* detail_bg.png in Resources */,
 				5BA220292566613400F8B583 /* weibo_4.json in Resources */,
 				77F713AA25600C44008564E9 /* tabbar_device_pressed@3x.png in Resources */,
@@ -1619,7 +1620,6 @@
 				77F713C725600C79008564E9 /* tabbar_shop_pressed@3x.png in Resources */,
 				77F713F92560E768008564E9 /* Discuss.plist in Resources */,
 				5BA220272566613400F8B583 /* weibo_7.json in Resources */,
-				5B76B2DA25624F1C00E5C74D /* Readme.md in Resources */,
 				77F71373255FBA31008564E9 /* tabbar_two_selected@3x.png in Resources */,
 				77F713B225600C5C008564E9 /* tabbar_device@3x.png in Resources */,
 				77F7137C255FBA31008564E9 /* tabbar_two_selected@2x.png in Resources */,
