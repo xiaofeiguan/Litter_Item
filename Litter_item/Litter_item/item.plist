@@ -54,6 +54,14 @@
 				<key>isPush</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>解决UIButton多次连续点击问题</string>
+				<key>class</key>
+				<string>LGHButtonClickProblemController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<dict>

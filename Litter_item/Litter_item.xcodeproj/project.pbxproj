@@ -20,6 +20,8 @@
 		5B217BF3256E4F9F00B311BA /* LGHTimerBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BF2256E4F9F00B311BA /* LGHTimerBroker.m */; };
 		5B217BFF256E57EE00B311BA /* LGHProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217BFE256E57EE00B311BA /* LGHProxy.m */; };
 		5B217C1E256F485500B311BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B217C1D256F485500B311BA /* README.md */; };
+		5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */; };
+		5B217C37256FA61500B311BA /* UIControl+LGHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
@@ -256,6 +258,10 @@
 		5B217BFD256E57EE00B311BA /* LGHProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHProxy.h; sourceTree = "<group>"; };
 		5B217BFE256E57EE00B311BA /* LGHProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHProxy.m; sourceTree = "<group>"; };
 		5B217C1D256F485500B311BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		5B217C2F256FA37C00B311BA /* LGHButtonClickProblemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHButtonClickProblemController.h; sourceTree = "<group>"; };
+		5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHButtonClickProblemController.m; sourceTree = "<group>"; };
+		5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+LGHCategory.h"; sourceTree = "<group>"; };
+		5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LGHCategory.m"; sourceTree = "<group>"; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -711,6 +717,15 @@
 				5B217BFE256E57EE00B311BA /* LGHProxy.m */,
 			);
 			path = "Timer问题解决方案三(NSProxy虚基类，此方法5星推荐)";
+			sourceTree = "<group>";
+		};
+		5B217C2E256FA30A00B311BA /* 解决UIButton多次连续点击问题 */ = {
+			isa = PBXGroup;
+			children = (
+				5B217C2F256FA37C00B311BA /* LGHButtonClickProblemController.h */,
+				5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */,
+			);
+			path = "解决UIButton多次连续点击问题";
 			sourceTree = "<group>";
 		};
 		5B76B298255E89F400E5C74D /* 自定义UI */ = {
@@ -1314,6 +1329,8 @@
 				77F712EE255EF27A008564E9 /* UIView+LGHExtension.m */,
 				77F7139F256006DE008564E9 /* UIImage+GSExtension.h */,
 				77F713A0256006DE008564E9 /* UIImage+GSExtension.m */,
+				5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */,
+				5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1457,6 +1474,7 @@
 			isa = PBXGroup;
 			children = (
 				77F7142C256159DE008564E9 /* 自定义Button */,
+				5B217C2E256FA30A00B311BA /* 解决UIButton多次连续点击问题 */,
 			);
 			path = "自定义控件";
 			sourceTree = "<group>";
@@ -1736,6 +1754,7 @@
 				77F713F12560DE22008564E9 /* LGHTableWebViewController.m in Sources */,
 				5BA01B472563D3C00062E210 /* LGHStartTimeOptimizeViewController.m in Sources */,
 				5BA01B3F2563D39D0062E210 /* LGHBaseTableViewController.m in Sources */,
+				5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */,
 				77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */,
 				77F7139B25600602008564E9 /* XJVerticalButton.m in Sources */,
 				5BA222662566845600F8B583 /* YYCGUtilities.m in Sources */,
@@ -1803,6 +1822,7 @@
 				77B60F88256D40E300A316DA /* LGHTableViewFoldController.m in Sources */,
 				5BA222302566845600F8B583 /* MKAnnotationView+YYWebImage.m in Sources */,
 				5BA2226E2566845600F8B583 /* YYKeychain.m in Sources */,
+				5B217C37256FA61500B311BA /* UIControl+LGHCategory.m in Sources */,
 				5BA222EB2567D7E600F8B583 /* WBStatusCell.m in Sources */,
 				5BA2222E2566845600F8B583 /* UIButton+YYWebImage.m in Sources */,
 				77F71388255FD0DB008564E9 /* LGHTabbar02ViewController.m in Sources */,
