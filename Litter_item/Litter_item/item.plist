@@ -71,14 +71,6 @@
 		<array>
 			<dict>
 				<key>title</key>
-				<string>UITableView+UICollectionView+UIScrolleView的页面布局</string>
-				<key>class</key>
-				<string>LGHLeftSlipViewController</string>
-				<key>isPush</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>title</key>
 				<string>WKWebView+UITableView布局(文章内容+评论)</string>
 				<key>class</key>
 				<string>LGHWebTableViewController</string>
