@@ -103,6 +103,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     YYTextLayout *layout = _innerLayout;
     _innerLayout = nil;
     _shrinkInnerLayout = nil;
+    //异步绘制
     dispatch_async(YYLabelGetReleaseQueue(), ^{
         NSAttributedString *text = [layout text]; // capture to block and release in background
         if (layout.attachments.count) {
@@ -377,6 +378,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     CGImageRef image = (__bridge_retained CGImageRef)(self.layer.contents);
     self.layer.contents = nil;
     if (image) {
+        // 异步
         dispatch_async(YYLabelGetReleaseQueue(), ^{
             CFRelease(image);
         });
@@ -417,6 +419,11 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     self = [super initWithFrame:CGRectZero];
     if (!self) return nil;
     self.backgroundColor = [UIColor clearColor];
+    /*
+     opaque属性给绘图系统提供一个性能优化的开关,
+     如果设置为 YES,绘图系统把这个视图当做一个不透明的来对待,这样就会提高性能,
+     如果设置为 NO,绘图系统就会把它和其他的普通view一样来对待,不去做优化操作.
+     */
     self.opaque = NO;
     [self _initLabel];
     self.frame = frame;
@@ -643,6 +650,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
 
 #pragma mark - Properties
 
+// 设置text
 - (void)setText:(NSString *)text {
     if (_text == text || [_text isEqualToString:text]) return;
     _text = text.copy;

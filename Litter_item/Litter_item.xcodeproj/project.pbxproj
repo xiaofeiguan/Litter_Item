@@ -728,12 +728,34 @@
 			path = "解决UIButton多次连续点击问题";
 			sourceTree = "<group>";
 		};
+		5B217C4A2570A0D200B311BA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				77F7130C255F93B4008564E9 /* LGHOneViewController.h */,
+				77F7130D255F93B4008564E9 /* LGHOneViewController.m */,
+				77F71315255F93C4008564E9 /* LGHTwoViewController.h */,
+				77F71316255F93C4008564E9 /* LGHTwoViewController.m */,
+				77F7133E255F9EE5008564E9 /* LGHThreeViewController.h */,
+				77F7133D255F9EE5008564E9 /* LGHThreeViewController.m */,
+				77F71343255FAA96008564E9 /* Resource */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5B217C4B2570AE1500B311BA /* 07-多线程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "07-多线程";
+			sourceTree = "<group>";
+		};
 		5B76B298255E89F400E5C74D /* 01-自定义UI */ = {
 			isa = PBXGroup;
 			children = (
 				5B76B299255E8A0100E5C74D /* 左滑样式 */,
 				77F712F6255EF79F008564E9 /* 编辑状态下Checkbox */,
-				77F7130B255F9339008564E9 /* 自定义UITabbar */,
+				77F71333255F9A98008564E9 /* 自定义UITabbar01 */,
+				77F7138C255FD0DF008564E9 /* 自定义Tabbar02 */,
 			);
 			path = "01-自定义UI";
 			sourceTree = "<group>";
@@ -830,6 +852,7 @@
 				5BA01B432563D3C00062E210 /* 04-性能优化 */,
 				5B76B2ED25628D0300E5C74D /* 05-底层原理 */,
 				77C7CEE2256EBC9C00DC03E0 /* 06-源码分析 */,
+				5B217C4B2570AE1500B311BA /* 07-多线程 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
@@ -1070,12 +1093,12 @@
 		5BA2219E2566845500F8B583 /* Text */ = {
 			isa = PBXGroup;
 			children = (
-				5BA2219F2566845500F8B583 /* YYTextView.m */,
 				5BA221A02566845500F8B583 /* Component */,
-				5BA221B32566845500F8B583 /* YYLabel.m */,
-				5BA221B42566845500F8B583 /* YYTextView.h */,
 				5BA221B52566845500F8B583 /* String */,
 				5BA221C82566845500F8B583 /* YYLabel.h */,
+				5BA221B32566845500F8B583 /* YYLabel.m */,
+				5BA2219F2566845500F8B583 /* YYTextView.m */,
+				5BA221B42566845500F8B583 /* YYTextView.h */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1347,27 +1370,12 @@
 			path = "编辑状态下Checkbox";
 			sourceTree = "<group>";
 		};
-		77F7130B255F9339008564E9 /* 自定义UITabbar */ = {
-			isa = PBXGroup;
-			children = (
-				77F71333255F9A98008564E9 /* 自定义UITabbar01 */,
-				77F7138C255FD0DF008564E9 /* 自定义Tabbar02 */,
-				77F7130C255F93B4008564E9 /* LGHOneViewController.h */,
-				77F7130D255F93B4008564E9 /* LGHOneViewController.m */,
-				77F71315255F93C4008564E9 /* LGHTwoViewController.h */,
-				77F71316255F93C4008564E9 /* LGHTwoViewController.m */,
-				77F7133E255F9EE5008564E9 /* LGHThreeViewController.h */,
-				77F7133D255F9EE5008564E9 /* LGHThreeViewController.m */,
-				77F71343255FAA96008564E9 /* Resource */,
-			);
-			path = "自定义UITabbar";
-			sourceTree = "<group>";
-		};
 		77F71333255F9A98008564E9 /* 自定义UITabbar01 */ = {
 			isa = PBXGroup;
 			children = (
 				77F71321255F9531008564E9 /* LGHTabBar01ViewController.h */,
 				77F71322255F9531008564E9 /* LGHTabBar01ViewController.m */,
+				5B217C4A2570A0D200B311BA /* Other */,
 			);
 			path = "自定义UITabbar01";
 			sourceTree = "<group>";
