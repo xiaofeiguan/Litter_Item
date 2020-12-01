@@ -264,4 +264,9 @@ NSIndexPath *kEditingIndexPath = nil;
     }
 }
 
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+    NSLog(@"dealloc:%@",[self class]);
+}
+
 @end

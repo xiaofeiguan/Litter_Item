@@ -1,20 +1,28 @@
 PODS:
+  - FBRetainCycleDetector (0.1.4)
   - Masonry (1.1.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - Masonry (~> 1.1.0)
+  - MLeaksFinder (~> 1.0.0)
   - ReactiveObjC (~> 3.1.1)
 
 SPEC REPOS:
   trunk:
+    - FBRetainCycleDetector
     - Masonry
+    - MLeaksFinder
     - ReactiveObjC
 
 SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 4dbcb0b54c8164022b22e914696a2a3886d6e05b
+PODFILE CHECKSUM: f973b6c94dae434a08a97bd6b90d17ab56cc45b8
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

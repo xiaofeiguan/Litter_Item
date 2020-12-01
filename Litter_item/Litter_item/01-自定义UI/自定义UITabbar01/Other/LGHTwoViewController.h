@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHTwoViewController : UIViewController
+@interface LGHTwoViewController : LGHBaseViewController
 
 @end
 

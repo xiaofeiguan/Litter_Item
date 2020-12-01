@@ -38,8 +38,6 @@
     
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
         
-        
-        
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
         
     }];

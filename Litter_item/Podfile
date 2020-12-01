@@ -2,10 +2,14 @@
 # platform :ios, '9.0'
 
 target 'Litter_item' do
-
+  # 自动布局框架
   pod 'Masonry'       , '~> 1.1.0'
+  # ReactiveCocoa-objc
   pod 'ReactiveObjC'  , '~> 3.1.1'
-  
+  # 微信检测方案
+  pod 'matrix-wechat', '~> 0.6.5'
+  # 内存泄漏检测框架(利用黑魔法)
+  pod 'MLeaksFinder', '~> 1.0.0'
 end
 
 target 'Litter_itemTests' do

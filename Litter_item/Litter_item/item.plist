@@ -155,6 +155,22 @@
 				<key>isPush</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>卡顿检测一(LGHFPSLabel)</string>
+				<key>class</key>
+				<string>LGHFPSLabelViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>卡顿检测</string>
+				<key>class</key>
+				<string>LGHCatonCheckViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -207,6 +223,14 @@
 				<string>Timer问题解决方案三(NSProxy虚基类，此方法5星推荐)</string>
 				<key>class</key>
 				<string>LGHTimer03ViewController</string>
+				<key>isPush</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>内存泄漏测试</string>
+				<key>class</key>
+				<string>LGHLeaksTestViewController</string>
 				<key>isPush</key>
 				<string>1</string>
 			</dict>

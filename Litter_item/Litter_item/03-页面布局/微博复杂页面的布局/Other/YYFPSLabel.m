@@ -63,10 +63,11 @@
     _count++;
     NSTimeInterval delta = link.timestamp - _lastTime;
     if (delta < 1) return;
-    _lastTime = link.timestamp;
     float fps = _count / delta;
-    _count = 0;
+    NSLog(@"%ld -- %lf",_count,delta);
     
+    _count = 0;
+    _lastTime = link.timestamp;
     CGFloat progress = fps / 60.0;
     UIColor *color = [UIColor colorWithHue:0.27 * (progress - 0.2) saturation:1 brightness:0.9 alpha:1];
     
@@ -75,7 +76,6 @@
     [text setColor:[UIColor whiteColor] range:NSMakeRange(text.length - 3, 3)];
     text.font = _font;
     [text setFont:_subFont range:NSMakeRange(text.length - 4, 1)];
-    
     self.attributedText = text;
 }
 

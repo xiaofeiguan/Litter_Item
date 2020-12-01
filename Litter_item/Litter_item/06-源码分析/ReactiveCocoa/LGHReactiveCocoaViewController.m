@@ -38,20 +38,21 @@
         ]
     ] mutableCopy];
     
+    __weak typeof(self) weakSelf = self;
     self.dataSource = [[LGHBaseTableDataSource alloc]initWithIdentifier:@"UITableViewCell" configureBlock:^(UITableViewCell* _Nonnull cell, NSDictionary*  _Nonnull model, NSIndexPath * _Nonnull indexPath) {
         cell.textLabel.numberOfLines = 0;
         cell.textLabel.text = model[@"title"];
     } selectBlock:^(NSIndexPath * _Nonnull indexPath) {
         NSLog(@"点击了%ld行cell", (long)indexPath.row);
         
-        NSDictionary *data = self.datas[indexPath.section][indexPath.row];
+        NSDictionary *data = weakSelf.datas[indexPath.section][indexPath.row];
         NSString *url = data[@"url"];
         dispatch_async(dispatch_get_main_queue(), ^{
             LGHBaseWKWebViewController *webVC = [[LGHBaseWKWebViewController alloc]initWithUrl:url];
-            if (self.navigationController) {
-                [self.navigationController pushViewController:webVC animated:NO];
+            if (weakSelf.navigationController) {
+                [weakSelf.navigationController pushViewController:webVC animated:NO];
             }else{
-                [self presentViewController:webVC animated:YES completion:^{
+                [weakSelf presentViewController:webVC animated:YES completion:^{
                     
                 }];
             }

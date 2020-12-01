@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHThreeViewController : UIViewController
+@interface LGHThreeViewController : LGHBaseViewController
 
 @end
 

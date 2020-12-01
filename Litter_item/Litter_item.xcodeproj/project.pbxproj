@@ -26,8 +26,15 @@
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
 		5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */; };
+		5B7A73062576138F00354304 /* LGHFPSLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A73022576138F00354304 /* LGHFPSLabelViewController.m */; };
+		5B7A73072576138F00354304 /* LGHFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A73052576138F00354304 /* LGHFPSLabel.m */; };
+		5B7A731025761D4500354304 /* 卡顿检测.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A730F25761D4500354304 /* 卡顿检测.md */; };
+		5B7A73192576301D00354304 /* LGHCatonCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A73182576301D00354304 /* LGHCatonCheckViewController.m */; };
+		5B7A733625764EAC00354304 /* LGHLeaksTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A733525764EAC00354304 /* LGHLeaksTestViewController.m */; };
+		5B7A733F25764EDD00354304 /* LGHLeaksView01.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A733E25764EDD00354304 /* LGHLeaksView01.m */; };
+		5B7A734525764EF300354304 /* LGHLeaksView02.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A734425764EF300354304 /* LGHLeaksView02.m */; };
+		5B7A734B25764F1E00354304 /* LGHSingalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A734A25764F1E00354304 /* LGHSingalObject.m */; };
 		5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28A255E3563007A74E4 /* AppDelegate.m */; };
-		5B8FF28E255E3563007A74E4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28D255E3563007A74E4 /* SceneDelegate.m */; };
 		5B8FF291255E3563007A74E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF290255E3563007A74E4 /* ViewController.m */; };
 		5B8FF294255E3563007A74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8FF292255E3563007A74E4 /* Main.storyboard */; };
 		5B8FF296255E3565007A74E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8FF295255E3565007A74E4 /* Assets.xcassets */; };
@@ -272,11 +279,24 @@
 		5B76B2F925628D9100E5C74D /* LGHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHPerson.m; sourceTree = "<group>"; };
 		5B76B30C2562970F00E5C74D /* LGHKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHKVOViewController.h; sourceTree = "<group>"; };
 		5B76B30D2562970F00E5C74D /* LGHKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHKVOViewController.m; sourceTree = "<group>"; };
+		5B7A73022576138F00354304 /* LGHFPSLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHFPSLabelViewController.m; sourceTree = "<group>"; };
+		5B7A73032576138F00354304 /* LGHFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHFPSLabel.h; sourceTree = "<group>"; };
+		5B7A73042576138F00354304 /* LGHFPSLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHFPSLabelViewController.h; sourceTree = "<group>"; };
+		5B7A73052576138F00354304 /* LGHFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHFPSLabel.m; sourceTree = "<group>"; };
+		5B7A730F25761D4500354304 /* 卡顿检测.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "卡顿检测.md"; sourceTree = "<group>"; };
+		5B7A73172576301C00354304 /* LGHCatonCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHCatonCheckViewController.h; sourceTree = "<group>"; };
+		5B7A73182576301D00354304 /* LGHCatonCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHCatonCheckViewController.m; sourceTree = "<group>"; };
+		5B7A733425764EAC00354304 /* LGHLeaksTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeaksTestViewController.h; sourceTree = "<group>"; };
+		5B7A733525764EAC00354304 /* LGHLeaksTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeaksTestViewController.m; sourceTree = "<group>"; };
+		5B7A733D25764EDD00354304 /* LGHLeaksView01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeaksView01.h; sourceTree = "<group>"; };
+		5B7A733E25764EDD00354304 /* LGHLeaksView01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeaksView01.m; sourceTree = "<group>"; };
+		5B7A734325764EF300354304 /* LGHLeaksView02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeaksView02.h; sourceTree = "<group>"; };
+		5B7A734425764EF300354304 /* LGHLeaksView02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeaksView02.m; sourceTree = "<group>"; };
+		5B7A734925764F1E00354304 /* LGHSingalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSingalObject.h; sourceTree = "<group>"; };
+		5B7A734A25764F1E00354304 /* LGHSingalObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSingalObject.m; sourceTree = "<group>"; };
 		5B8FF286255E3563007A74E4 /* Litter_item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litter_item.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8FF289255E3563007A74E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8FF28A255E3563007A74E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B8FF28C255E3563007A74E4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		5B8FF28D255E3563007A74E4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		5B8FF28F255E3563007A74E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B8FF290255E3563007A74E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B8FF293255E3563007A74E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -797,6 +817,7 @@
 				5B217BB1256E3FB000B311BA /* Timer问题解决方案一 */,
 				5B217BB2256E3FE500B311BA /* Timer问题解决方案二(中介者) */,
 				5B217BB3256E410400B311BA /* Timer问题解决方案三(NSProxy虚基类，此方法5星推荐) */,
+				5B7A733325764E5D00354304 /* 内存泄漏测试 */,
 			);
 			path = "05-底层原理";
 			sourceTree = "<group>";
@@ -841,6 +862,42 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		5B7A72ED2575F06200354304 /* 卡顿检测 */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A730F25761D4500354304 /* 卡顿检测.md */,
+				5B7A73172576301C00354304 /* LGHCatonCheckViewController.h */,
+				5B7A73182576301D00354304 /* LGHCatonCheckViewController.m */,
+			);
+			path = "卡顿检测";
+			sourceTree = "<group>";
+		};
+		5B7A73012576138F00354304 /* 卡顿检测一(LGHFPSLabel) */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A73042576138F00354304 /* LGHFPSLabelViewController.h */,
+				5B7A73022576138F00354304 /* LGHFPSLabelViewController.m */,
+				5B7A73032576138F00354304 /* LGHFPSLabel.h */,
+				5B7A73052576138F00354304 /* LGHFPSLabel.m */,
+			);
+			path = "卡顿检测一(LGHFPSLabel)";
+			sourceTree = "<group>";
+		};
+		5B7A733325764E5D00354304 /* 内存泄漏测试 */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A733425764EAC00354304 /* LGHLeaksTestViewController.h */,
+				5B7A733525764EAC00354304 /* LGHLeaksTestViewController.m */,
+				5B7A733D25764EDD00354304 /* LGHLeaksView01.h */,
+				5B7A733E25764EDD00354304 /* LGHLeaksView01.m */,
+				5B7A734325764EF300354304 /* LGHLeaksView02.h */,
+				5B7A734425764EF300354304 /* LGHLeaksView02.m */,
+				5B7A734925764F1E00354304 /* LGHSingalObject.h */,
+				5B7A734A25764F1E00354304 /* LGHSingalObject.m */,
+			);
+			path = "内存泄漏测试";
+			sourceTree = "<group>";
+		};
 		5B8FF27D255E3563007A74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -880,8 +937,6 @@
 				5B76B2A1255E8BF500E5C74D /* header */,
 				5B8FF289255E3563007A74E4 /* AppDelegate.h */,
 				5B8FF28A255E3563007A74E4 /* AppDelegate.m */,
-				5B8FF28C255E3563007A74E4 /* SceneDelegate.h */,
-				5B8FF28D255E3563007A74E4 /* SceneDelegate.m */,
 				5B8FF28F255E3563007A74E4 /* ViewController.h */,
 				5B8FF290255E3563007A74E4 /* ViewController.m */,
 				5B1AAB64256D175B003FA5BD /* lgh_order_file.order */,
@@ -942,6 +997,8 @@
 			isa = PBXGroup;
 			children = (
 				5BA01B442563D3C00062E210 /* 启动时间优化 */,
+				5B7A73012576138F00354304 /* 卡顿检测一(LGHFPSLabel) */,
+				5B7A72ED2575F06200354304 /* 卡顿检测 */,
 			);
 			path = "04-性能优化";
 			sourceTree = "<group>";
@@ -1635,6 +1692,7 @@
 				77F71376255FBA31008564E9 /* tabbar_three_selected@3x.png in Resources */,
 				5BA220242566613400F8B583 /* weibo_5.json in Resources */,
 				5BA01B4F2563D3DD0062E210 /* item.plist in Resources */,
+				5B7A731025761D4500354304 /* 卡顿检测.md in Resources */,
 				77F71377255FBA31008564E9 /* tabbar_two_normal@3x.png in Resources */,
 				77F713B125600C5C008564E9 /* tabbar_device@2x.png in Resources */,
 				5B217C1E256F485500B311BA /* README.md in Resources */,
@@ -1776,7 +1834,9 @@
 				5BA222322566845600F8B583 /* YYAnimatedImageView.m in Sources */,
 				5BA222522566845600F8B583 /* UIView+YYAdd.m in Sources */,
 				77F713F12560DE22008564E9 /* LGHTableWebViewController.m in Sources */,
+				5B7A734B25764F1E00354304 /* LGHSingalObject.m in Sources */,
 				5BA01B472563D3C00062E210 /* LGHStartTimeOptimizeViewController.m in Sources */,
+				5B7A733F25764EDD00354304 /* LGHLeaksView01.m in Sources */,
 				5BA01B3F2563D39D0062E210 /* LGHBaseTableViewController.m in Sources */,
 				5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */,
 				77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */,
@@ -1789,6 +1849,7 @@
 				77F712E3255EF144008564E9 /* LGHViewMaker.m in Sources */,
 				5BA222502566845600F8B583 /* UIScrollView+YYAdd.m in Sources */,
 				5BA2226A2566845600F8B583 /* YYThreadSafeDictionary.m in Sources */,
+				5B7A733625764EAC00354304 /* LGHLeaksTestViewController.m in Sources */,
 				5BA222722566845600F8B583 /* YYThreadSafeArray.m in Sources */,
 				5BA222412566845600F8B583 /* YYTextRunDelegate.m in Sources */,
 				5BA2224C2566845600F8B583 /* UIColor+YYAdd.m in Sources */,
@@ -1813,6 +1874,7 @@
 				77F71323255F9531008564E9 /* LGHTabBar01ViewController.m in Sources */,
 				5BA222582566845600F8B583 /* NSArray+YYAdd.m in Sources */,
 				77D0E208256D5646002E69F0 /* LGHCornerRadiusViewController.m in Sources */,
+				5B7A734525764EF300354304 /* LGHLeaksView02.m in Sources */,
 				5B76B30E2562970F00E5C74D /* LGHKVOViewController.m in Sources */,
 				5BA2222A2566845600F8B583 /* YYImage.m in Sources */,
 				5BA222692566845600F8B583 /* YYAsyncLayer.m in Sources */,
@@ -1865,6 +1927,7 @@
 				5BA2226B2566845600F8B583 /* YYSentinel.m in Sources */,
 				5B217BAD256E358000B311BA /* LGHARCViewController.m in Sources */,
 				5BA222702566845600F8B583 /* YYFileHash.m in Sources */,
+				5B7A73072576138F00354304 /* LGHFPSLabel.m in Sources */,
 				5BA2223B2566845600F8B583 /* YYTextLayout.m in Sources */,
 				5BA01B3D2563D39D0062E210 /* LGHBaseTableDataSource.m in Sources */,
 				5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */,
@@ -1877,13 +1940,13 @@
 				77F7133F255F9EE5008564E9 /* LGHThreeViewController.m in Sources */,
 				77F71395255FF46F008564E9 /* LGHTabBarOne.m in Sources */,
 				5BA222292566845600F8B583 /* YYSpriteSheetImage.m in Sources */,
-				5B8FF28E255E3563007A74E4 /* SceneDelegate.m in Sources */,
 				77F712E6255EF144008564E9 /* LGHLabelMaker.m in Sources */,
 				5BA222462566845600F8B583 /* UIPasteboard+YYText.m in Sources */,
 				5BA222372566845600F8B583 /* YYTextMagnifier.m in Sources */,
 				5BA01B5B2563DDD60062E210 /* LGHBaseWKWebViewController.m in Sources */,
 				5BA222532566845600F8B583 /* UIBarButtonItem+YYAdd.m in Sources */,
 				5BA222512566845600F8B583 /* UIScreen+YYAdd.m in Sources */,
+				5B7A73192576301D00354304 /* LGHCatonCheckViewController.m in Sources */,
 				5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */,
 				5BA2224A2566845600F8B583 /* UITextField+YYAdd.m in Sources */,
 				5BA2226C2566845600F8B583 /* YYTransaction.m in Sources */,
@@ -1901,6 +1964,7 @@
 				5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */,
 				5BA222572566845600F8B583 /* UIFont+YYAdd.m in Sources */,
 				77C7CEE6256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m in Sources */,
+				5B7A73062576138F00354304 /* LGHFPSLabelViewController.m in Sources */,
 				5BA222432566845600F8B583 /* NSParagraphStyle+YYText.m in Sources */,
 				77C7CEEF256EBEAA00DC03E0 /* LGHRACSignal.m in Sources */,
 				77F71303255EF892008564E9 /* CheckboxTableViewCell.m in Sources */,
