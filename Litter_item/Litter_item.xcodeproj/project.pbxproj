@@ -821,6 +821,26 @@
 			path = KVO;
 			sourceTree = "<group>";
 		};
+		5B7A72EA2575E52D00354304 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				77F712ED255EF27A008564E9 /* UIView+LGHExtension.h */,
+				77F712EE255EF27A008564E9 /* UIView+LGHExtension.m */,
+				77F7139F256006DE008564E9 /* UIImage+GSExtension.h */,
+				77F713A0256006DE008564E9 /* UIImage+GSExtension.m */,
+				5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */,
+				5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5B7A72EB2575E55100354304 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		5B8FF27D255E3563007A74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -1348,12 +1368,8 @@
 		77F712EC255EF234008564E9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				77F712ED255EF27A008564E9 /* UIView+LGHExtension.h */,
-				77F712EE255EF27A008564E9 /* UIView+LGHExtension.m */,
-				77F7139F256006DE008564E9 /* UIImage+GSExtension.h */,
-				77F713A0256006DE008564E9 /* UIImage+GSExtension.m */,
-				5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */,
-				5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */,
+				5B7A72EA2575E52D00354304 /* UI */,
+				5B7A72EB2575E55100354304 /* Foundation */,
 			);
 			path = Category;
 			sourceTree = "<group>";
