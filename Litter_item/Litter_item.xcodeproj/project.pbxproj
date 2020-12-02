@@ -22,6 +22,8 @@
 		5B217C1E256F485500B311BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B217C1D256F485500B311BA /* README.md */; };
 		5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */; };
 		5B217C37256FA61500B311BA /* UIControl+LGHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */; };
+		5B4781342577968400F5D68F /* LGHWrittenExaminationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */; };
+		5B47813C2577A35700F5D68F /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B47813B2577A35700F5D68F /* test01.png */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
@@ -269,6 +271,9 @@
 		5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHButtonClickProblemController.m; sourceTree = "<group>"; };
 		5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+LGHCategory.h"; sourceTree = "<group>"; };
 		5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LGHCategory.m"; sourceTree = "<group>"; };
+		5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHWrittenExaminationViewController.h; sourceTree = "<group>"; };
+		5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHWrittenExaminationViewController.m; sourceTree = "<group>"; };
+		5B47813B2577A35700F5D68F /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test01.png; sourceTree = "<group>"; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -769,6 +774,16 @@
 			path = "07-多线程";
 			sourceTree = "<group>";
 		};
+		5B4781312577962200F5D68F /* 笔试 */ = {
+			isa = PBXGroup;
+			children = (
+				5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */,
+				5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */,
+				5B47813B2577A35700F5D68F /* test01.png */,
+			);
+			path = "笔试";
+			sourceTree = "<group>";
+		};
 		5B76B298255E89F400E5C74D /* 01-自定义UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -930,6 +945,7 @@
 				5B76B2ED25628D0300E5C74D /* 05-底层原理 */,
 				77C7CEE2256EBC9C00DC03E0 /* 06-源码分析 */,
 				5B217C4B2570AE1500B311BA /* 07-多线程 */,
+				5B4781312577962200F5D68F /* 笔试 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
@@ -1732,6 +1748,7 @@
 				5BA220282566613400F8B583 /* weibo_2.json in Resources */,
 				77F7137D255FBA31008564E9 /* tabbar_one_selected@3x.png in Resources */,
 				77F713CE25600C81008564E9 /* tabbar_shop@3x.png in Resources */,
+				5B47813C2577A35700F5D68F /* test01.png in Resources */,
 				77F713B925600C68008564E9 /* tabbar_help_pressed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1902,6 +1919,7 @@
 				5BA222352566845600F8B583 /* YYClassInfo.m in Sources */,
 				5BA222252566845600F8B583 /* YYKVStorage.m in Sources */,
 				5BA2225F2566845600F8B583 /* NSTimer+YYAdd.m in Sources */,
+				5B4781342577968400F5D68F /* LGHWrittenExaminationViewController.m in Sources */,
 				5BA222542566845600F8B583 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				77F71317255F93C4008564E9 /* LGHTwoViewController.m in Sources */,
 				5BA222282566845600F8B583 /* YYWebImageManager.m in Sources */,

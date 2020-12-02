@@ -251,5 +251,20 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>笔试</string>
+		<key>list</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>笔试</string>
+				<key>class</key>
+				<string>LGHWrittenExaminationViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
