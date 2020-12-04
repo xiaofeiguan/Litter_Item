@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <BeeHive.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,14 @@
 @synthesize  window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ViewController * homeVc = [[ViewController alloc]init];
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navCtrl;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

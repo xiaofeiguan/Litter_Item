@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		46DF12B36B438812421C5E03 /* libPods-Litter_itemUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24264674BF1FCE6E9AE0BF88 /* libPods-Litter_itemUITests.a */; };
+		5B00A46F2578DF1E00582C17 /* 可变数组的线程安全问题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B00A46E2578DF1E00582C17 /* 可变数组的线程安全问题.md */; };
+		5B00A4752578E14B00582C17 /* LGHSaveMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00A4742578E14B00582C17 /* LGHSaveMutableArray.m */; };
+		5B00A47E2578E45400582C17 /* NSString+LGHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00A47D2578E45400582C17 /* NSString+LGHCategory.m */; };
+		5B00A4872578F50200582C17 /* LGHSaveMutableArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00A4862578F50200582C17 /* LGHSaveMutableArrayController.m */; };
 		5B1AAB57256D0119003FA5BD /* LGHStartuptimeOptimization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1AAB56256D0119003FA5BD /* LGHStartuptimeOptimization.m */; };
 		5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1AAB5C256D0505003FA5BD /* Swift_Test.swift */; };
 		5B1AAB65256D175B003FA5BD /* lgh_order_file.order in Resources */ = {isa = PBXBuildFile; fileRef = 5B1AAB64256D175B003FA5BD /* lgh_order_file.order */; };
@@ -23,7 +27,7 @@
 		5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */; };
 		5B217C37256FA61500B311BA /* UIControl+LGHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */; };
 		5B4781342577968400F5D68F /* LGHWrittenExaminationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */; };
-		5B47813C2577A35700F5D68F /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B47813B2577A35700F5D68F /* test01.png */; };
+		5B47813C2577A35700F5D68F /* test01解题思路.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B47813B2577A35700F5D68F /* test01解题思路.png */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
 		5B76B2F125628D6B00E5C74D /* LGHKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F025628D6B00E5C74D /* LGHKVCViewController.m */; };
 		5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B2F925628D9100E5C74D /* LGHPerson.m */; };
@@ -245,6 +249,13 @@
 		08F0AED1DB0ACCAEEED78C4A /* libPods-Litter_item.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Litter_item.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		128E9C10B832BFE40F671491 /* Pods-Litter_itemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_itemTests.release.xcconfig"; path = "Target Support Files/Pods-Litter_itemTests/Pods-Litter_itemTests.release.xcconfig"; sourceTree = "<group>"; };
 		24264674BF1FCE6E9AE0BF88 /* libPods-Litter_itemUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Litter_itemUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B00A46E2578DF1E00582C17 /* 可变数组的线程安全问题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "可变数组的线程安全问题.md"; sourceTree = "<group>"; };
+		5B00A4732578E14B00582C17 /* LGHSaveMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSaveMutableArray.h; sourceTree = "<group>"; };
+		5B00A4742578E14B00582C17 /* LGHSaveMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSaveMutableArray.m; sourceTree = "<group>"; };
+		5B00A47C2578E45400582C17 /* NSString+LGHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LGHCategory.h"; sourceTree = "<group>"; };
+		5B00A47D2578E45400582C17 /* NSString+LGHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGHCategory.m"; sourceTree = "<group>"; };
+		5B00A4852578F50200582C17 /* LGHSaveMutableArrayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSaveMutableArrayController.h; sourceTree = "<group>"; };
+		5B00A4862578F50200582C17 /* LGHSaveMutableArrayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSaveMutableArrayController.m; sourceTree = "<group>"; };
 		5B1AAB55256D0119003FA5BD /* LGHStartuptimeOptimization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHStartuptimeOptimization.h; sourceTree = "<group>"; };
 		5B1AAB56256D0119003FA5BD /* LGHStartuptimeOptimization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHStartuptimeOptimization.m; sourceTree = "<group>"; };
 		5B1AAB5B256D0505003FA5BD /* Litter_item-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Litter_item-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -273,7 +284,7 @@
 		5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LGHCategory.m"; sourceTree = "<group>"; };
 		5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHWrittenExaminationViewController.h; sourceTree = "<group>"; };
 		5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHWrittenExaminationViewController.m; sourceTree = "<group>"; };
-		5B47813B2577A35700F5D68F /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test01.png; sourceTree = "<group>"; };
+		5B47813B2577A35700F5D68F /* test01解题思路.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test01解题思路.png"; sourceTree = "<group>"; };
 		5B76B29A255E8B1C00E5C74D /* LGHLeftSlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHLeftSlipViewController.h; sourceTree = "<group>"; };
 		5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeftSlipViewController.m; sourceTree = "<group>"; };
 		5B76B2A3255E8CD100E5C74D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -702,6 +713,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5B00A46D2578BE9400582C17 /* 可变数组的线程安全问题 */ = {
+			isa = PBXGroup;
+			children = (
+				5B00A4852578F50200582C17 /* LGHSaveMutableArrayController.h */,
+				5B00A4862578F50200582C17 /* LGHSaveMutableArrayController.m */,
+				5B00A4732578E14B00582C17 /* LGHSaveMutableArray.h */,
+				5B00A4742578E14B00582C17 /* LGHSaveMutableArray.m */,
+				5B00A46E2578DF1E00582C17 /* 可变数组的线程安全问题.md */,
+			);
+			path = "可变数组的线程安全问题";
+			sourceTree = "<group>";
+		};
 		5B217BAA256E355400B311BA /* 内存管理 */ = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +793,7 @@
 		5B217C4B2570AE1500B311BA /* 07-多线程 */ = {
 			isa = PBXGroup;
 			children = (
+				5B00A46D2578BE9400582C17 /* 可变数组的线程安全问题 */,
 			);
 			path = "07-多线程";
 			sourceTree = "<group>";
@@ -779,7 +803,7 @@
 			children = (
 				5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */,
 				5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */,
-				5B47813B2577A35700F5D68F /* test01.png */,
+				5B47813B2577A35700F5D68F /* test01解题思路.png */,
 			);
 			path = "笔试";
 			sourceTree = "<group>";
@@ -873,6 +897,8 @@
 		5B7A72EB2575E55100354304 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				5B00A47C2578E45400582C17 /* NSString+LGHCategory.h */,
+				5B00A47D2578E45400582C17 /* NSString+LGHCategory.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -1105,13 +1131,13 @@
 		5BA221722566845500F8B583 /* YYKit */ = {
 			isa = PBXGroup;
 			children = (
-				5BA2219D2566845500F8B583 /* YYKit.h */,
+				5BA221C92566845500F8B583 /* Base */,
 				5BA221732566845500F8B583 /* Cache */,
 				5BA2217C2566845500F8B583 /* Image */,
 				5BA221982566845500F8B583 /* Model */,
 				5BA2219E2566845500F8B583 /* Text */,
-				5BA221C92566845500F8B583 /* Base */,
 				5BA2220A2566845500F8B583 /* Utility */,
+				5BA2219D2566845500F8B583 /* YYKit.h */,
 			);
 			path = YYKit;
 			sourceTree = "<group>";
@@ -1119,13 +1145,13 @@
 		5BA221732566845500F8B583 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				5BA221792566845500F8B583 /* YYCache.h */,
+				5BA221762566845500F8B583 /* YYCache.m */,
+				5BA221782566845500F8B583 /* YYDiskCache.h */,
 				5BA221742566845500F8B583 /* YYDiskCache.m */,
 				5BA221752566845500F8B583 /* YYKVStorage.h */,
-				5BA221762566845500F8B583 /* YYCache.m */,
-				5BA221772566845500F8B583 /* YYMemoryCache.h */,
-				5BA221782566845500F8B583 /* YYDiskCache.h */,
-				5BA221792566845500F8B583 /* YYCache.h */,
 				5BA2217A2566845500F8B583 /* YYKVStorage.m */,
+				5BA221772566845500F8B583 /* YYMemoryCache.h */,
 				5BA2217B2566845500F8B583 /* YYMemoryCache.m */,
 			);
 			path = Cache;
@@ -1134,23 +1160,23 @@
 		5BA2217C2566845500F8B583 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				5BA2217D2566845500F8B583 /* YYImageCache.m */,
-				5BA2217E2566845500F8B583 /* YYImage.h */,
-				5BA2217F2566845500F8B583 /* YYWebImageManager.m */,
-				5BA221802566845500F8B583 /* YYImageCoder.h */,
-				5BA221812566845500F8B583 /* YYFrameImage.h */,
-				5BA221822566845500F8B583 /* YYSpriteSheetImage.m */,
-				5BA221832566845500F8B583 /* YYWebImageOperation.h */,
+				5BA2218A2566845500F8B583 /* Categories */,
 				5BA221842566845500F8B583 /* YYAnimatedImageView.h */,
+				5BA221952566845500F8B583 /* YYAnimatedImageView.m */,
+				5BA221812566845500F8B583 /* YYFrameImage.h */,
+				5BA221892566845500F8B583 /* YYFrameImage.m */,
+				5BA2217E2566845500F8B583 /* YYImage.h */,
 				5BA221852566845500F8B583 /* YYImage.m */,
 				5BA221862566845500F8B583 /* YYImageCache.h */,
+				5BA2217D2566845500F8B583 /* YYImageCache.m */,
+				5BA221802566845500F8B583 /* YYImageCoder.h */,
 				5BA221872566845500F8B583 /* YYImageCoder.m */,
-				5BA221882566845500F8B583 /* YYWebImageManager.h */,
-				5BA221892566845500F8B583 /* YYFrameImage.m */,
-				5BA2218A2566845500F8B583 /* Categories */,
-				5BA221952566845500F8B583 /* YYAnimatedImageView.m */,
-				5BA221962566845500F8B583 /* YYWebImageOperation.m */,
 				5BA221972566845500F8B583 /* YYSpriteSheetImage.h */,
+				5BA221822566845500F8B583 /* YYSpriteSheetImage.m */,
+				5BA221882566845500F8B583 /* YYWebImageManager.h */,
+				5BA2217F2566845500F8B583 /* YYWebImageManager.m */,
+				5BA221832566845500F8B583 /* YYWebImageOperation.h */,
+				5BA221962566845500F8B583 /* YYWebImageOperation.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1175,10 +1201,10 @@
 		5BA221982566845500F8B583 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5BA221992566845500F8B583 /* YYClassInfo.h */,
-				5BA2219A2566845500F8B583 /* NSObject+YYModel.m */,
-				5BA2219B2566845500F8B583 /* YYClassInfo.m */,
 				5BA2219C2566845500F8B583 /* NSObject+YYModel.h */,
+				5BA2219A2566845500F8B583 /* NSObject+YYModel.m */,
+				5BA221992566845500F8B583 /* YYClassInfo.h */,
+				5BA2219B2566845500F8B583 /* YYClassInfo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1199,24 +1225,24 @@
 		5BA221A02566845500F8B583 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				5BA221A12566845500F8B583 /* YYTextSelectionView.h */,
-				5BA221A22566845500F8B583 /* YYTextLine.h */,
-				5BA221A32566845500F8B583 /* YYTextMagnifier.m */,
-				5BA221A42566845500F8B583 /* YYTextLayout.h */,
-				5BA221A52566845500F8B583 /* YYTextKeyboardManager.h */,
-				5BA221A62566845500F8B583 /* YYTextContainerView.m */,
-				5BA221A72566845500F8B583 /* YYTextEffectWindow.m */,
-				5BA221A82566845500F8B583 /* YYTextDebugOption.h */,
-				5BA221A92566845500F8B583 /* YYTextInput.m */,
-				5BA221AA2566845500F8B583 /* YYTextLayout.m */,
-				5BA221AB2566845500F8B583 /* YYTextMagnifier.h */,
-				5BA221AC2566845500F8B583 /* YYTextLine.m */,
-				5BA221AD2566845500F8B583 /* YYTextSelectionView.m */,
-				5BA221AE2566845500F8B583 /* YYTextEffectWindow.h */,
 				5BA221AF2566845500F8B583 /* YYTextContainerView.h */,
-				5BA221B02566845500F8B583 /* YYTextKeyboardManager.m */,
-				5BA221B12566845500F8B583 /* YYTextInput.h */,
+				5BA221A62566845500F8B583 /* YYTextContainerView.m */,
+				5BA221A82566845500F8B583 /* YYTextDebugOption.h */,
 				5BA221B22566845500F8B583 /* YYTextDebugOption.m */,
+				5BA221AE2566845500F8B583 /* YYTextEffectWindow.h */,
+				5BA221A72566845500F8B583 /* YYTextEffectWindow.m */,
+				5BA221B12566845500F8B583 /* YYTextInput.h */,
+				5BA221A92566845500F8B583 /* YYTextInput.m */,
+				5BA221A52566845500F8B583 /* YYTextKeyboardManager.h */,
+				5BA221B02566845500F8B583 /* YYTextKeyboardManager.m */,
+				5BA221A42566845500F8B583 /* YYTextLayout.h */,
+				5BA221AA2566845500F8B583 /* YYTextLayout.m */,
+				5BA221A22566845500F8B583 /* YYTextLine.h */,
+				5BA221AC2566845500F8B583 /* YYTextLine.m */,
+				5BA221AB2566845500F8B583 /* YYTextMagnifier.h */,
+				5BA221A32566845500F8B583 /* YYTextMagnifier.m */,
+				5BA221A12566845500F8B583 /* YYTextSelectionView.h */,
+				5BA221AD2566845500F8B583 /* YYTextSelectionView.m */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -1224,24 +1250,24 @@
 		5BA221B52566845500F8B583 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				5BA221B62566845500F8B583 /* YYTextAttribute.h */,
-				5BA221B72566845500F8B583 /* YYTextRunDelegate.m */,
-				5BA221B82566845500F8B583 /* YYTextUtilities.m */,
-				5BA221B92566845500F8B583 /* NSParagraphStyle+YYText.m */,
-				5BA221BA2566845500F8B583 /* YYTextParser.m */,
-				5BA221BB2566845500F8B583 /* NSAttributedString+YYText.m */,
-				5BA221BC2566845500F8B583 /* UIPasteboard+YYText.m */,
-				5BA221BD2566845500F8B583 /* YYTextRubyAnnotation.h */,
-				5BA221BE2566845500F8B583 /* YYTextArchiver.h */,
-				5BA221BF2566845500F8B583 /* YYTextUtilities.h */,
-				5BA221C02566845500F8B583 /* YYTextRunDelegate.h */,
-				5BA221C12566845500F8B583 /* YYTextAttribute.m */,
 				5BA221C22566845500F8B583 /* NSAttributedString+YYText.h */,
-				5BA221C32566845500F8B583 /* YYTextParser.h */,
+				5BA221BB2566845500F8B583 /* NSAttributedString+YYText.m */,
 				5BA221C42566845500F8B583 /* NSParagraphStyle+YYText.h */,
-				5BA221C52566845500F8B583 /* YYTextArchiver.m */,
-				5BA221C62566845500F8B583 /* YYTextRubyAnnotation.m */,
+				5BA221B92566845500F8B583 /* NSParagraphStyle+YYText.m */,
 				5BA221C72566845500F8B583 /* UIPasteboard+YYText.h */,
+				5BA221BC2566845500F8B583 /* UIPasteboard+YYText.m */,
+				5BA221BE2566845500F8B583 /* YYTextArchiver.h */,
+				5BA221C52566845500F8B583 /* YYTextArchiver.m */,
+				5BA221B62566845500F8B583 /* YYTextAttribute.h */,
+				5BA221C12566845500F8B583 /* YYTextAttribute.m */,
+				5BA221C32566845500F8B583 /* YYTextParser.h */,
+				5BA221BA2566845500F8B583 /* YYTextParser.m */,
+				5BA221BD2566845500F8B583 /* YYTextRubyAnnotation.h */,
+				5BA221C62566845500F8B583 /* YYTextRubyAnnotation.m */,
+				5BA221C02566845500F8B583 /* YYTextRunDelegate.h */,
+				5BA221B72566845500F8B583 /* YYTextRunDelegate.m */,
+				5BA221BF2566845500F8B583 /* YYTextUtilities.h */,
+				5BA221B82566845500F8B583 /* YYTextUtilities.m */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1260,34 +1286,34 @@
 		5BA221CB2566845500F8B583 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				5BA221CC2566845500F8B583 /* UITextField+YYAdd.m */,
+				5BA221E22566845500F8B583 /* UIApplication+YYAdd.h */,
+				5BA221D12566845500F8B583 /* UIApplication+YYAdd.m */,
+				5BA221E52566845500F8B583 /* UIBarButtonItem+YYAdd.h */,
+				5BA221D82566845500F8B583 /* UIBarButtonItem+YYAdd.m */,
+				5BA221DC2566845500F8B583 /* UIBezierPath+YYAdd.h */,
 				5BA221CD2566845500F8B583 /* UIBezierPath+YYAdd.m */,
+				5BA221DB2566845500F8B583 /* UIColor+YYAdd.h */,
 				5BA221CE2566845500F8B583 /* UIColor+YYAdd.m */,
 				5BA221CF2566845500F8B583 /* UIControl+YYAdd.h */,
-				5BA221D02566845500F8B583 /* UIDevice+YYAdd.m */,
-				5BA221D12566845500F8B583 /* UIApplication+YYAdd.m */,
-				5BA221D22566845500F8B583 /* UITableView+YYAdd.m */,
-				5BA221D32566845500F8B583 /* UIImage+YYAdd.h */,
-				5BA221D42566845500F8B583 /* UIScrollView+YYAdd.m */,
-				5BA221D52566845500F8B583 /* UIScreen+YYAdd.m */,
-				5BA221D62566845500F8B583 /* UIView+YYAdd.m */,
-				5BA221D72566845500F8B583 /* UIFont+YYAdd.h */,
-				5BA221D82566845500F8B583 /* UIBarButtonItem+YYAdd.m */,
-				5BA221D92566845500F8B583 /* UIGestureRecognizer+YYAdd.m */,
-				5BA221DA2566845500F8B583 /* UITextField+YYAdd.h */,
-				5BA221DB2566845500F8B583 /* UIColor+YYAdd.h */,
-				5BA221DC2566845500F8B583 /* UIBezierPath+YYAdd.h */,
-				5BA221DD2566845500F8B583 /* UIScreen+YYAdd.h */,
-				5BA221DE2566845500F8B583 /* UIScrollView+YYAdd.h */,
-				5BA221DF2566845500F8B583 /* UITableView+YYAdd.h */,
-				5BA221E02566845500F8B583 /* UIImage+YYAdd.m */,
-				5BA221E12566845500F8B583 /* UIDevice+YYAdd.h */,
-				5BA221E22566845500F8B583 /* UIApplication+YYAdd.h */,
 				5BA221E32566845500F8B583 /* UIControl+YYAdd.m */,
-				5BA221E42566845500F8B583 /* UIGestureRecognizer+YYAdd.h */,
-				5BA221E52566845500F8B583 /* UIBarButtonItem+YYAdd.h */,
+				5BA221E12566845500F8B583 /* UIDevice+YYAdd.h */,
+				5BA221D02566845500F8B583 /* UIDevice+YYAdd.m */,
+				5BA221D72566845500F8B583 /* UIFont+YYAdd.h */,
 				5BA221E62566845500F8B583 /* UIFont+YYAdd.m */,
+				5BA221E42566845500F8B583 /* UIGestureRecognizer+YYAdd.h */,
+				5BA221D92566845500F8B583 /* UIGestureRecognizer+YYAdd.m */,
+				5BA221D32566845500F8B583 /* UIImage+YYAdd.h */,
+				5BA221E02566845500F8B583 /* UIImage+YYAdd.m */,
+				5BA221DD2566845500F8B583 /* UIScreen+YYAdd.h */,
+				5BA221D52566845500F8B583 /* UIScreen+YYAdd.m */,
+				5BA221DE2566845500F8B583 /* UIScrollView+YYAdd.h */,
+				5BA221D42566845500F8B583 /* UIScrollView+YYAdd.m */,
+				5BA221DF2566845500F8B583 /* UITableView+YYAdd.h */,
+				5BA221D22566845500F8B583 /* UITableView+YYAdd.m */,
+				5BA221DA2566845500F8B583 /* UITextField+YYAdd.h */,
+				5BA221CC2566845500F8B583 /* UITextField+YYAdd.m */,
 				5BA221E72566845500F8B583 /* UIView+YYAdd.h */,
+				5BA221D62566845500F8B583 /* UIView+YYAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -1295,34 +1321,34 @@
 		5BA221E82566845500F8B583 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				5BA221E92566845500F8B583 /* NSArray+YYAdd.m */,
-				5BA221EA2566845500F8B583 /* NSNumber+YYAdd.m */,
-				5BA221EB2566845500F8B583 /* NSTimer+YYAdd.h */,
-				5BA221EC2566845500F8B583 /* NSDate+YYAdd.h */,
-				5BA221ED2566845500F8B583 /* NSObject+YYAddForARC.h */,
-				5BA221EE2566845500F8B583 /* NSNotificationCenter+YYAdd.h */,
-				5BA221EF2566845500F8B583 /* NSBundle+YYAdd.m */,
-				5BA221F02566845500F8B583 /* NSObject+YYAdd.m */,
-				5BA221F12566845500F8B583 /* NSString+YYAdd.h */,
-				5BA221F22566845500F8B583 /* NSObject+YYAddForKVO.h */,
-				5BA221F32566845500F8B583 /* NSData+YYAdd.m */,
-				5BA221F42566845500F8B583 /* NSThread+YYAdd.m */,
-				5BA221F52566845500F8B583 /* NSDictionary+YYAdd.h */,
-				5BA221F62566845500F8B583 /* NSKeyedUnarchiver+YYAdd.m */,
-				5BA221F72566845500F8B583 /* NSTimer+YYAdd.m */,
-				5BA221F82566845500F8B583 /* NSNumber+YYAdd.h */,
 				5BA221F92566845500F8B583 /* NSArray+YYAdd.h */,
-				5BA221FA2566845500F8B583 /* NSObject+YYAddForARC.m */,
-				5BA221FB2566845500F8B583 /* NSDate+YYAdd.m */,
-				5BA221FC2566845500F8B583 /* NSObject+YYAdd.h */,
-				5BA221FD2566845500F8B583 /* NSString+YYAdd.m */,
+				5BA221E92566845500F8B583 /* NSArray+YYAdd.m */,
 				5BA221FE2566845500F8B583 /* NSBundle+YYAdd.h */,
-				5BA221FF2566845500F8B583 /* NSNotificationCenter+YYAdd.m */,
-				5BA222002566845500F8B583 /* NSKeyedUnarchiver+YYAdd.h */,
-				5BA222012566845500F8B583 /* NSDictionary+YYAdd.m */,
-				5BA222022566845500F8B583 /* NSThread+YYAdd.h */,
+				5BA221EF2566845500F8B583 /* NSBundle+YYAdd.m */,
 				5BA222032566845500F8B583 /* NSData+YYAdd.h */,
+				5BA221F32566845500F8B583 /* NSData+YYAdd.m */,
+				5BA221EC2566845500F8B583 /* NSDate+YYAdd.h */,
+				5BA221FB2566845500F8B583 /* NSDate+YYAdd.m */,
+				5BA221F52566845500F8B583 /* NSDictionary+YYAdd.h */,
+				5BA222012566845500F8B583 /* NSDictionary+YYAdd.m */,
+				5BA222002566845500F8B583 /* NSKeyedUnarchiver+YYAdd.h */,
+				5BA221F62566845500F8B583 /* NSKeyedUnarchiver+YYAdd.m */,
+				5BA221EE2566845500F8B583 /* NSNotificationCenter+YYAdd.h */,
+				5BA221FF2566845500F8B583 /* NSNotificationCenter+YYAdd.m */,
+				5BA221F82566845500F8B583 /* NSNumber+YYAdd.h */,
+				5BA221EA2566845500F8B583 /* NSNumber+YYAdd.m */,
+				5BA221FC2566845500F8B583 /* NSObject+YYAdd.h */,
+				5BA221F02566845500F8B583 /* NSObject+YYAdd.m */,
+				5BA221ED2566845500F8B583 /* NSObject+YYAddForARC.h */,
+				5BA221FA2566845500F8B583 /* NSObject+YYAddForARC.m */,
+				5BA221F22566845500F8B583 /* NSObject+YYAddForKVO.h */,
 				5BA222042566845500F8B583 /* NSObject+YYAddForKVO.m */,
+				5BA221F12566845500F8B583 /* NSString+YYAdd.h */,
+				5BA221FD2566845500F8B583 /* NSString+YYAdd.m */,
+				5BA222022566845500F8B583 /* NSThread+YYAdd.h */,
+				5BA221F42566845500F8B583 /* NSThread+YYAdd.m */,
+				5BA221EB2566845500F8B583 /* NSTimer+YYAdd.h */,
+				5BA221F72566845500F8B583 /* NSTimer+YYAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -1341,30 +1367,30 @@
 		5BA2220A2566845500F8B583 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				5BA2220B2566845500F8B583 /* YYWeakProxy.m */,
-				5BA2220C2566845500F8B583 /* YYAsyncLayer.m */,
-				5BA2220D2566845500F8B583 /* YYKeychain.h */,
-				5BA2220E2566845500F8B583 /* YYDispatchQueuePool.h */,
-				5BA2220F2566845500F8B583 /* YYTransaction.h */,
-				5BA222102566845500F8B583 /* YYThreadSafeDictionary.m */,
-				5BA222112566845500F8B583 /* YYFileHash.h */,
-				5BA222122566845500F8B583 /* YYGestureRecognizer.h */,
-				5BA222132566845500F8B583 /* YYSentinel.m */,
-				5BA222142566845500F8B583 /* YYReachability.h */,
-				5BA222152566845500F8B583 /* YYThreadSafeArray.h */,
-				5BA222162566845500F8B583 /* YYTimer.h */,
 				5BA222172566845500F8B583 /* YYAsyncLayer.h */,
-				5BA222182566845500F8B583 /* YYWeakProxy.h */,
-				5BA222192566845500F8B583 /* YYThreadSafeDictionary.h */,
-				5BA2221A2566845600F8B583 /* YYTransaction.m */,
+				5BA2220C2566845500F8B583 /* YYAsyncLayer.m */,
+				5BA2220E2566845500F8B583 /* YYDispatchQueuePool.h */,
 				5BA2221B2566845600F8B583 /* YYDispatchQueuePool.m */,
-				5BA2221C2566845600F8B583 /* YYKeychain.m */,
-				5BA2221D2566845600F8B583 /* YYGestureRecognizer.m */,
+				5BA222112566845500F8B583 /* YYFileHash.h */,
 				5BA2221E2566845600F8B583 /* YYFileHash.m */,
-				5BA2221F2566845600F8B583 /* YYTimer.m */,
-				5BA222202566845600F8B583 /* YYThreadSafeArray.m */,
+				5BA222122566845500F8B583 /* YYGestureRecognizer.h */,
+				5BA2221D2566845600F8B583 /* YYGestureRecognizer.m */,
+				5BA2220D2566845500F8B583 /* YYKeychain.h */,
+				5BA2221C2566845600F8B583 /* YYKeychain.m */,
+				5BA222142566845500F8B583 /* YYReachability.h */,
 				5BA222212566845600F8B583 /* YYReachability.m */,
 				5BA222222566845600F8B583 /* YYSentinel.h */,
+				5BA222132566845500F8B583 /* YYSentinel.m */,
+				5BA222152566845500F8B583 /* YYThreadSafeArray.h */,
+				5BA222202566845600F8B583 /* YYThreadSafeArray.m */,
+				5BA222192566845500F8B583 /* YYThreadSafeDictionary.h */,
+				5BA222102566845500F8B583 /* YYThreadSafeDictionary.m */,
+				5BA222162566845500F8B583 /* YYTimer.h */,
+				5BA2221F2566845600F8B583 /* YYTimer.m */,
+				5BA2220F2566845500F8B583 /* YYTransaction.h */,
+				5BA2221A2566845600F8B583 /* YYTransaction.m */,
+				5BA222182566845500F8B583 /* YYWeakProxy.h */,
+				5BA2220B2566845500F8B583 /* YYWeakProxy.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -1607,6 +1633,7 @@
 				5B8FF282255E3563007A74E4 /* Sources */,
 				5B8FF283255E3563007A74E4 /* Frameworks */,
 				5B8FF284255E3563007A74E4 /* Resources */,
+				F2198B4353634F0F12463E76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1739,6 +1766,7 @@
 				77F71373255FBA31008564E9 /* tabbar_two_selected@3x.png in Resources */,
 				77F713B225600C5C008564E9 /* tabbar_device@3x.png in Resources */,
 				77F7137C255FBA31008564E9 /* tabbar_two_selected@2x.png in Resources */,
+				5B00A46F2578DF1E00582C17 /* 可变数组的线程安全问题.md in Resources */,
 				77F713C025600C70008564E9 /* tabbar_help@2x.png in Resources */,
 				77F713BF25600C70008564E9 /* tabbar_help@3x.png in Resources */,
 				77F713CD25600C81008564E9 /* tabbar_shop@2x.png in Resources */,
@@ -1748,7 +1776,7 @@
 				5BA220282566613400F8B583 /* weibo_2.json in Resources */,
 				77F7137D255FBA31008564E9 /* tabbar_one_selected@3x.png in Resources */,
 				77F713CE25600C81008564E9 /* tabbar_shop@3x.png in Resources */,
-				5B47813C2577A35700F5D68F /* test01.png in Resources */,
+				5B47813C2577A35700F5D68F /* test01解题思路.png in Resources */,
 				77F713B925600C68008564E9 /* tabbar_help_pressed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1814,6 +1842,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F2198B4353634F0F12463E76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Litter_item/Pods-Litter_item-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Litter_item/Pods-Litter_item-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Litter_item/Pods-Litter_item-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F5BE79FD560C2DAE4409A7FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1858,6 +1903,7 @@
 				5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */,
 				77F714372561755D008564E9 /* LGHCustomButtonViewController.m in Sources */,
 				5BA222662566845600F8B583 /* YYCGUtilities.m in Sources */,
+				5B00A4872578F50200582C17 /* LGHSaveMutableArrayController.m in Sources */,
 				5BA222382566845600F8B583 /* YYTextContainerView.m in Sources */,
 				5BA2224D2566845600F8B583 /* UIDevice+YYAdd.m in Sources */,
 				5BA222C72566894B00F8B583 /* YYPhotoGroupView.m in Sources */,
@@ -1918,6 +1964,7 @@
 				77F712E8255EF144008564E9 /* LGHImageViewMaker.m in Sources */,
 				5BA222352566845600F8B583 /* YYClassInfo.m in Sources */,
 				5BA222252566845600F8B583 /* YYKVStorage.m in Sources */,
+				5B00A47E2578E45400582C17 /* NSString+LGHCategory.m in Sources */,
 				5BA2225F2566845600F8B583 /* NSTimer+YYAdd.m in Sources */,
 				5B4781342577968400F5D68F /* LGHWrittenExaminationViewController.m in Sources */,
 				5BA222542566845600F8B583 /* UIGestureRecognizer+YYAdd.m in Sources */,
@@ -1981,6 +2028,7 @@
 				5BA2225D2566845600F8B583 /* NSThread+YYAdd.m in Sources */,
 				5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */,
 				5BA222572566845600F8B583 /* UIFont+YYAdd.m in Sources */,
+				5B00A4752578E14B00582C17 /* LGHSaveMutableArray.m in Sources */,
 				77C7CEE6256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m in Sources */,
 				5B7A73062576138F00354304 /* LGHFPSLabelViewController.m in Sources */,
 				5BA222432566845600F8B583 /* NSParagraphStyle+YYText.m in Sources */,

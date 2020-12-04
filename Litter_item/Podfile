@@ -1,15 +1,23 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 
 target 'Litter_item' do
-  # 自动布局框架
-  pod 'Masonry'       , '~> 1.1.0'
-  # ReactiveCocoa-objc
-  pod 'ReactiveObjC'  , '~> 3.1.1'
   # 微信检测方案
-  pod 'matrix-wechat', '~> 0.6.5'
+  #  pod 'matrix-wechat', '~> 0.6.5'
+  # Texture
+  #  pod 'Texture', '~> 3.0.0'
+  # 自动布局框架
+  pod 'Masonry'       , '1.1.0'
+  # ReactiveCocoa-objc
+  pod 'ReactiveObjC'  , '3.1.1'
   # 内存泄漏检测框架(利用黑魔法)
-  pod 'MLeaksFinder', '~> 1.0.0'
+  pod 'MLeaksFinder', '1.0.0'
+  
+  #Beelive
+  pod "BeeHive", '1.1.1'
+
 end
 
 target 'Litter_itemTests' do

@@ -6,8 +6,10 @@
 //
 
 #import "LGHWrittenExaminationViewController.h"
-
+#import "LGHSaveMutableArray.h"
 @interface LGHWrittenExaminationViewController ()
+
+
 
 @end
 
@@ -17,6 +19,8 @@
     [super viewDidLoad];
     
     [self test01];
+    
+    
 }
 
 /*
