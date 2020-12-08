@@ -1,0 +1,6 @@
+framework module LGHWebViewModule {
+  umbrella header "LGHWebViewModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LGHWebViewModule_Tests {
+  umbrella header "Pods-LGHWebViewModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
