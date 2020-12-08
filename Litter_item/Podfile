@@ -16,7 +16,9 @@ target 'Litter_item' do
   pod 'MLeaksFinder', '1.0.0'
   
   #Beelive
-  pod "BeeHive", '1.1.1'
+  pod 'BeeHive', '1.1.1'
+  
+  pod 'CTMediator', '44'
 
 end
 

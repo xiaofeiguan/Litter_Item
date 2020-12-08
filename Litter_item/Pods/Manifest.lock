@@ -1,5 +1,6 @@
 PODS:
   - BeeHive (1.1.1)
+  - CTMediator (44)
   - FBRetainCycleDetector (0.1.4)
   - Masonry (1.1.0)
   - MLeaksFinder (1.0.0):
@@ -8,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - BeeHive (= 1.1.1)
+  - CTMediator
   - Masonry (= 1.1.0)
   - MLeaksFinder (= 1.0.0)
   - ReactiveObjC (= 3.1.1)
@@ -15,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BeeHive
+    - CTMediator
     - FBRetainCycleDetector
     - Masonry
     - MLeaksFinder
@@ -22,11 +25,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BeeHive: 81b697e94e1ae0993eccf5388e195f3fbfe707a6
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 60cb346d907f7b9e138353ac968ce5bfdf2044ed
+PODFILE CHECKSUM: 4066d5ca4ca50dd22427990c4477e69e7ff38a25
 
 COCOAPODS: 1.10.0
