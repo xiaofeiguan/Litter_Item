@@ -7,7 +7,7 @@
 //
 
 #import "DeviceTool.h"
-
+#import "GSTool.h"
 @implementation DeviceTool
 
 + (NSString *)shortNameWithType:(XJDeviceType)type {
@@ -72,4 +72,10 @@
     return shortName;
 }
 
+
++ (NSString *)getRequestURLStringWithType:(XJDeviceType )type {
+    NSString *shortName = [self shortNameWithType:type];
+    NSString *URLString = [NSString stringWithFormat:@"https://helpgsw.vgabc.com/help.html?lang=%@&device=%@&platform=iosvtouch",[[GSTool shared] getLocalLanguage], shortName.uppercaseString];
+    return URLString ;
+}
 @end

@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DeviceTool : NSObject
 
 + (NSString*)shortNameWithType:(XJDeviceType)type;
-
++ (NSString *)getRequestURLStringWithType:(XJDeviceType )type;
 @end
 
 NS_ASSUME_NONNULL_END

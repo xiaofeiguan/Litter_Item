@@ -19,6 +19,8 @@ target 'Litter_item' do
   pod 'BeeHive', '1.1.1'
   
   pod 'CTMediator', '44'
+  
+  pod 'LGHWebViewModule', :path=>"./PrivatePods/LGHWebViewModule"
 
 end
 

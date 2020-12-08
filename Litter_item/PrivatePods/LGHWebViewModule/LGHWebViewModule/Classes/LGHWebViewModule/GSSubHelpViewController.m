@@ -14,6 +14,7 @@
 #import "DeviceTool.h"
 #import "GSTool.h"
 #import "Define.h"
+#import "GSSubHelpDetailViewController.h"
 
 @interface GSSubHelpViewController ()<WKNavigationDelegate>
 @property (nonatomic, assign) GSTutorialType        helpType;
@@ -264,8 +265,8 @@ static CGFloat kNavigationViewTopConstraintOnIPhoneX = 30.;
 }
 
 - (void)pushToDetailViewController:(NSString *)url {
-    UIViewController* detailVC = [[CTMediator sharedInstance] Help_aSubHelpDetailViewControllerWithURLString:url];
-    [self.navigationController pushViewController:detailVC animated:YES];
+    GSSubHelpDetailViewController *vc = [[GSSubHelpDetailViewController alloc]initWithURLString:url];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)dealloc {

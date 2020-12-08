@@ -13,9 +13,9 @@
 #import "Define.h"
 #import <WebKit/WebKit.h>
 #import "GSCombineButton.h"
-#import <Help_Category/CTMediator+Help.h>
 #import "Masonry.h"
 #import "MBProgressHUD+Util.h"
+#import "GSHelpDetailViewController.h"
 
 #define GSNaviTopHeight ([[NSUserDefaults standardUserDefaults] boolForKey:@"GSCurrentDeviceIsIPhoneXSeries"] ? 88 : 64)
 #define GSTabBarBottomHeight ([[NSUserDefaults standardUserDefaults] boolForKey:@"GSCurrentDeviceIsIPhoneXSeries"] ? (49 + 34) : 49)
@@ -36,7 +36,7 @@
         self.currentType = type;
         NSString *shortName = [DeviceTool shortNameWithType:self.currentType];
         self.leftButton.title = [shortName isEqualToString:@"i3"]?shortName:shortName.uppercaseString;
-        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[CTMediator sharedInstance] Help_getRequestURLStringWithDeviceType:self.currentType]] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[ DeviceTool getRequestURLStringWithType:self.currentType]] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
         [self.mainWebView loadRequest:request];
     }
 }
@@ -73,7 +73,7 @@
         [self.view sendSubviewToBack:_noneNetworkView];
         
         if ([[NSUserDefaults standardUserDefaults] boolForKey:@"GSCurrentNetworkStatus"] == NO) {
-            NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[CTMediator sharedInstance] Help_getRequestURLStringWithDeviceType:self.currentType]] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
+            NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[DeviceTool getRequestURLStringWithType:self.currentType]] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
             [self.mainWebView loadRequest:request];
         }
         
@@ -271,7 +271,7 @@
 //    [[CTMediator sharedInstance] performActionWithUrl:[NSURL URLWithString:@"GameSirOTA://Help/pushToDetailViewController?url=https://doc.xiaoji.com/zh/info/30.html"] completion:^(NSDictionary *info) {
 //    }];
 #if 1
-    UIViewController* helpDetailVC = [[CTMediator sharedInstance] Help_aHelpDetailViewControllerWithURLString:url];
+    GSHelpDetailViewController *helpDetailVC = [[GSHelpDetailViewController alloc]initWithUrl:url];
     [self.navigationController pushViewController:helpDetailVC animated:NO];
 #endif
 }
@@ -309,7 +309,7 @@
             make.left.right.mas_equalTo(0);
             make.bottom.mas_equalTo(-GSTabBarBottomHeight);
         }];
-        NSString *loadString = [[CTMediator sharedInstance] Help_getRequestURLStringWithDeviceType:self.currentType];
+        NSString *loadString = [DeviceTool getRequestURLStringWithType:self.currentType];
         NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:loadString] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
         [_mainWebView loadRequest:request];
         [_mainWebView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];

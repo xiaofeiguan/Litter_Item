@@ -7,8 +7,27 @@
 //
 
 #import <UIKit/UIKit.h>
-// 使用此类文件，必须在此项目的.podspec文件的末尾添加依赖，否则提示找不到该文件
-#import <Help_Category/CTMediator+Help.h>
+
+/// 教程类型
+typedef NS_ENUM(NSInteger, GSTutorialType) {
+    /// 首页-上手教程
+    GSTutorialTypeGetStarted = 1,
+    /// 连接设备教程
+    GSTutorialTypeConnectDevice = 2,
+    /// 固件升级教程
+    GSTutorialTypeSpeacial = 3,
+    /// VX-开镜教程
+    GSTutorialTypeVXMirror = 4,
+    /// VX-摇杆死区教程
+    GSTutorialTypeVXRockerDeadArea = 5,
+    /// VX2，PC升级教程
+    GSTutorialTypeVX2PCUpdate = 6,
+    /// VX2，USB升级教程
+    GSTutorialTypeVX2USBUpdate = 7,
+    /// 模糊点击教程
+    GSTutorialTypeFuzzyTouch = 8
+};
+//使用此类文件，必须在此项目的.podspec文件的末尾添加依赖，否则提示找不到该文件
 
 NS_ASSUME_NONNULL_BEGIN
 

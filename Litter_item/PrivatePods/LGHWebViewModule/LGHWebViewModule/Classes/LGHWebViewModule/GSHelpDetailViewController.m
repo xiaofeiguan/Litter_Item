@@ -11,7 +11,6 @@
 #import "ViewMaker/XJViewMakerHeader.h"
 #import "Define.h"
 #import "Masonry.h"
-#import <Help_Category/CTMediator+Help.h>
 
 @interface GSHelpDetailViewController ()<WKUIDelegate,WKNavigationDelegate,UIAlertViewDelegate>
 @property (nonatomic,strong) NSString * url;
@@ -229,7 +228,7 @@
 
 #pragma mark - Tools
 -(void)moveToDetail:(NSString *)url{
-    UIViewController *helpDetailVC = [[CTMediator sharedInstance] Help_aHelpDetailViewControllerWithURLString:url];
+    GSHelpDetailViewController *helpDetailVC = [[GSHelpDetailViewController alloc]initWithUrl:url];
     [self.navigationController pushViewController:helpDetailVC animated:NO];
 }
 
