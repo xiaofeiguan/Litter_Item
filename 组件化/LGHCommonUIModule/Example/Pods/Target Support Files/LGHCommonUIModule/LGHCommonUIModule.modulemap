@@ -1,0 +1,6 @@
+framework module LGHCommonUIModule {
+  umbrella header "LGHCommonUIModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

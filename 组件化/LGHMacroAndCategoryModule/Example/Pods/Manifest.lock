@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LGHMacroAndCategoryModule (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LGHMacroAndCategoryModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LGHMacroAndCategoryModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LGHMacroAndCategoryModule: 8b068756c95c2dc1dd55f03c64e027cc5e872fc5
+
+PODFILE CHECKSUM: 02c94a6bb963bd7979db5dbe3e677c9d6def3103
+
+COCOAPODS: 1.10.0

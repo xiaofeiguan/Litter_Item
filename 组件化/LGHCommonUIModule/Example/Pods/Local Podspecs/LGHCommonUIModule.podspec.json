@@ -1,0 +1,43 @@
+{
+  "name": "LGHCommonUIModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGHCommonUIModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaofeiguan/LGHCommonUIModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaofeiguan": "450929738@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaofeiguan/LGHCommonUIModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LGHCommonUIModule/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.1"
+    ],
+    "Masonry": [
+
+    ],
+    "LGHMacroAndCategoryModule": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGMacros.h\""
+  ],
+  "resource_bundles": {
+    "LGHCommonUIModule": [
+      "LGHCommonUIModule/Assets/*"
+    ]
+  }
+}
