@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,6 +40,7 @@
 		5B7A733F25764EDD00354304 /* LGHLeaksView01.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A733E25764EDD00354304 /* LGHLeaksView01.m */; };
 		5B7A734525764EF300354304 /* LGHLeaksView02.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A734425764EF300354304 /* LGHLeaksView02.m */; };
 		5B7A734B25764F1E00354304 /* LGHSingalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A734A25764F1E00354304 /* LGHSingalObject.m */; };
+		5B881F3C25806FB7004B89CB /* LGHPodModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B881F3B25806FB6004B89CB /* LGHPodModuleViewController.m */; };
 		5B8FF28B255E3563007A74E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF28A255E3563007A74E4 /* AppDelegate.m */; };
 		5B8FF291255E3563007A74E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FF290255E3563007A74E4 /* ViewController.m */; };
 		5B8FF294255E3563007A74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8FF292255E3563007A74E4 /* Main.storyboard */; };
@@ -310,6 +311,8 @@
 		5B7A734425764EF300354304 /* LGHLeaksView02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHLeaksView02.m; sourceTree = "<group>"; };
 		5B7A734925764F1E00354304 /* LGHSingalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSingalObject.h; sourceTree = "<group>"; };
 		5B7A734A25764F1E00354304 /* LGHSingalObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSingalObject.m; sourceTree = "<group>"; };
+		5B881F3A25806FB6004B89CB /* LGHPodModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHPodModuleViewController.h; sourceTree = "<group>"; };
+		5B881F3B25806FB6004B89CB /* LGHPodModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHPodModuleViewController.m; sourceTree = "<group>"; };
 		5B8FF286255E3563007A74E4 /* Litter_item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litter_item.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8FF289255E3563007A74E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8FF28A255E3563007A74E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -798,17 +801,17 @@
 			path = "07-多线程";
 			sourceTree = "<group>";
 		};
-		5B4781312577962200F5D68F /* 笔试 */ = {
+		5B4781312577962200F5D68F /* 10-笔试 */ = {
 			isa = PBXGroup;
 			children = (
 				5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */,
 				5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */,
 				5B47813B2577A35700F5D68F /* test01解题思路.png */,
 			);
-			path = "笔试";
+			path = "10-笔试";
 			sourceTree = "<group>";
 		};
-		5B76B298255E89F400E5C74D /* 01-自定义UI */ = {
+		5B76B298255E89F400E5C74D /* 00-自定义UI */ = {
 			isa = PBXGroup;
 			children = (
 				5B76B299255E8A0100E5C74D /* 左滑样式 */,
@@ -816,7 +819,7 @@
 				77F71333255F9A98008564E9 /* 自定义UITabbar01 */,
 				77F7138C255FD0DF008564E9 /* 自定义Tabbar02 */,
 			);
-			path = "01-自定义UI";
+			path = "00-自定义UI";
 			sourceTree = "<group>";
 		};
 		5B76B299255E8A0100E5C74D /* 左滑样式 */ = {
@@ -939,6 +942,37 @@
 			path = "内存泄漏测试";
 			sourceTree = "<group>";
 		};
+		5B881F3825806F4E004B89CB /* 09-架构 */ = {
+			isa = PBXGroup;
+			children = (
+				5B881F3925806F66004B89CB /* 本地Pod组件化 */,
+			);
+			path = "09-架构";
+			sourceTree = "<group>";
+		};
+		5B881F3925806F66004B89CB /* 本地Pod组件化 */ = {
+			isa = PBXGroup;
+			children = (
+				5B881F3A25806FB6004B89CB /* LGHPodModuleViewController.h */,
+				5B881F3B25806FB6004B89CB /* LGHPodModuleViewController.m */,
+			);
+			path = "本地Pod组件化";
+			sourceTree = "<group>";
+		};
+		5B881F442580717D004B89CB /* 08-内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "08-内存管理";
+			sourceTree = "<group>";
+		};
+		5B881F48258071FB004B89CB /* 03-动画 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "03-动画";
+			sourceTree = "<group>";
+		};
 		5B8FF27D255E3563007A74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -964,14 +998,17 @@
 		5B8FF288255E3563007A74E4 /* Litter_item */ = {
 			isa = PBXGroup;
 			children = (
-				5B76B298255E89F400E5C74D /* 01-自定义UI */,
-				77F714222561589A008564E9 /* 02-自定义控件 */,
-				77F713D225601377008564E9 /* 03-页面布局 */,
+				5B76B298255E89F400E5C74D /* 00-自定义UI */,
+				77F714222561589A008564E9 /* 01-自定义控件 */,
+				77F713D225601377008564E9 /* 02-页面布局 */,
+				5B881F48258071FB004B89CB /* 03-动画 */,
 				5BA01B432563D3C00062E210 /* 04-性能优化 */,
 				5B76B2ED25628D0300E5C74D /* 05-底层原理 */,
 				77C7CEE2256EBC9C00DC03E0 /* 06-源码分析 */,
 				5B217C4B2570AE1500B311BA /* 07-多线程 */,
-				5B4781312577962200F5D68F /* 笔试 */,
+				5B881F442580717D004B89CB /* 08-内存管理 */,
+				5B881F3825806F4E004B89CB /* 09-架构 */,
+				5B4781312577962200F5D68F /* 10-笔试 */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
@@ -1553,7 +1590,7 @@
 			path = "自定义Tabbar02";
 			sourceTree = "<group>";
 		};
-		77F713D225601377008564E9 /* 03-页面布局 */ = {
+		77F713D225601377008564E9 /* 02-页面布局 */ = {
 			isa = PBXGroup;
 			children = (
 				77F713D325601D27008564E9 /* 文章内容+评论 */,
@@ -1563,7 +1600,7 @@
 				77B60F85256D3F6B00A316DA /* UITableViewCell的折叠 */,
 				77D0E205256D55BE002E69F0 /* UITableView每个Section设置为圆角 */,
 			);
-			path = "03-页面布局";
+			path = "02-页面布局";
 			sourceTree = "<group>";
 		};
 		77F713D325601D27008564E9 /* 文章内容+评论 */ = {
@@ -1593,13 +1630,13 @@
 			path = "商品内容+详情";
 			sourceTree = "<group>";
 		};
-		77F714222561589A008564E9 /* 02-自定义控件 */ = {
+		77F714222561589A008564E9 /* 01-自定义控件 */ = {
 			isa = PBXGroup;
 			children = (
 				77F7142C256159DE008564E9 /* 自定义Button */,
 				5B217C2E256FA30A00B311BA /* 解决UIButton多次连续点击问题 */,
 			);
-			path = "02-自定义控件";
+			path = "01-自定义控件";
 			sourceTree = "<group>";
 		};
 		77F7142C256159DE008564E9 /* 自定义Button */ = {
@@ -2026,6 +2063,7 @@
 				5B217BF3256E4F9F00B311BA /* LGHTimerBroker.m in Sources */,
 				77F713A1256006DE008564E9 /* UIImage+GSExtension.m in Sources */,
 				5BA2225D2566845600F8B583 /* NSThread+YYAdd.m in Sources */,
+				5B881F3C25806FB7004B89CB /* LGHPodModuleViewController.m in Sources */,
 				5B1AAB5D256D0505003FA5BD /* Swift_Test.swift in Sources */,
 				5BA222572566845600F8B583 /* UIFont+YYAdd.m in Sources */,
 				5B00A4752578E14B00582C17 /* LGHSaveMutableArray.m in Sources */,

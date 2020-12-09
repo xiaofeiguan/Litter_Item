@@ -39,7 +39,7 @@ SPEC CHECKSUMS:
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  LGHWebViewModule: 804397c307987eb36ea7379fbb069f4a7fd78463
+  LGHWebViewModule: 96a2aaf7e77dfb2d0b2967ec1dc743a8ac1a3c01
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040

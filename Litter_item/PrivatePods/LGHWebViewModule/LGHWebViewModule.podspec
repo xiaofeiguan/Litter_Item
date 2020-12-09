@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LGHWebViewModule/Classes/**/*'
   
-  s.prefix_header_contents = '#import UINavigationController+FDFullscreenPopGesture.h','#import "LGHWebViewModule.h"'
+  s.prefix_header_contents = '#import "UINavigationController+FDFullscreenPopGesture.h"','#import "LGHWebViewModule.h"'
   
   # s.resource_bundles = {
   #   'LGHWebViewModule' => ['LGHWebViewModule/Assets/*.png']

@@ -123,16 +123,7 @@
 		<key>title</key>
 		<string>动画</string>
 		<key>list</key>
-		<array>
-			<dict>
-				<key>title</key>
-				<string>基础动画</string>
-				<key>class</key>
-				<string>LGHLeftSlipViewController</string>
-				<key>isPush</key>
-				<true/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -228,7 +219,7 @@
 			</dict>
 			<dict>
 				<key>title</key>
-				<string>内存泄漏测试</string>
+				<string>内存泄漏测试(MLeaksFinder内存检测)</string>
 				<key>class</key>
 				<string>LGHLeaksTestViewController</string>
 				<key>isPush</key>
@@ -246,6 +237,42 @@
 				<string>ReactiveCocoa</string>
 				<key>class</key>
 				<string>LGHReactiveCocoaViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>多线程</string>
+		<key>list</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>可变数组的线程安全问题</string>
+				<key>class</key>
+				<string>LGHSaveMutableArrayController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>内存管理</string>
+		<key>list</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>架构</string>
+		<key>list</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>本地Pod组件化</string>
+				<key>class</key>
+				<string>LGHPodModuleViewController</string>
 				<key>isPush</key>
 				<true/>
 			</dict>

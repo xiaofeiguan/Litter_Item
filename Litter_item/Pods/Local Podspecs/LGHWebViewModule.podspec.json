@@ -20,7 +20,7 @@
   },
   "source_files": "LGHWebViewModule/Classes/**/*",
   "prefix_header_contents": [
-    "#import UINavigationController+FDFullscreenPopGesture.h",
+    "#import \"UINavigationController+FDFullscreenPopGesture.h\"",
     "#import \"LGHWebViewModule.h\""
   ],
   "dependencies": {
