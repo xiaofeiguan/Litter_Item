@@ -49,8 +49,9 @@
     }
     _count++;
     NSTimeInterval time = link.timestamp - _lastTime;
-    if (time < 1) return;
     // delta>=1 每秒计算一次 每秒刷新的次数_count
+    // 看每秒 displayLinkAction:(CADisplayLink *)link 方法执行了多少次，就说明帧刷新了多少次。
+    if (time < 1) return;
     float fps = _count / time;
     NSLog(@"%ld -- %lf",_count,time);
     _count = 0;
