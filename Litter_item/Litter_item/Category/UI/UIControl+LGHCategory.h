@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIControl (LGHCategory)
 /// 点击事件响应的时间间隔，不设置或者大于 0 时为默认时间间隔
-@property (nonatomic, assign) NSTimeInterval clickInterval; // 默认是1.0
+@property (nonatomic, assign) NSTimeInterval clickInterval; // 默认是0.5s
 /// 是否忽略响应的时间间隔
 @property (nonatomic, assign) BOOL isIgnoreClickInterval;  // 默认是NO
 

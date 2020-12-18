@@ -39,7 +39,7 @@
     
 }
 
-static double kDefaultInterval = 1.0;
+static double kDefaultInterval = 0.5;
 
 -(void)lgh_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event{
     if ([self isKindOfClass:[UIButton class]]&& !self.isIgnoreClickInterval) {
