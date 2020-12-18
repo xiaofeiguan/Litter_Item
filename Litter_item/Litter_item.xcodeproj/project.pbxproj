@@ -26,6 +26,7 @@
 		5B217C1E256F485500B311BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B217C1D256F485500B311BA /* README.md */; };
 		5B217C31256FA37C00B311BA /* LGHButtonClickProblemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */; };
 		5B217C37256FA61500B311BA /* UIControl+LGHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */; };
+		5B460CD5258CC1D100C63AB5 /* LGHThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B460CD4258CC1D100C63AB5 /* LGHThreadViewController.m */; };
 		5B4781342577968400F5D68F /* LGHWrittenExaminationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */; };
 		5B47813C2577A35700F5D68F /* test01解题思路.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B47813B2577A35700F5D68F /* test01解题思路.png */; };
 		5B76B29C255E8B1C00E5C74D /* LGHLeftSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76B29B255E8B1C00E5C74D /* LGHLeftSlipViewController.m */; };
@@ -283,6 +284,8 @@
 		5B217C30256FA37C00B311BA /* LGHButtonClickProblemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHButtonClickProblemController.m; sourceTree = "<group>"; };
 		5B217C35256FA61500B311BA /* UIControl+LGHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+LGHCategory.h"; sourceTree = "<group>"; };
 		5B217C36256FA61500B311BA /* UIControl+LGHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LGHCategory.m"; sourceTree = "<group>"; };
+		5B460CD3258CC1D100C63AB5 /* LGHThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHThreadViewController.h; sourceTree = "<group>"; };
+		5B460CD4258CC1D100C63AB5 /* LGHThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHThreadViewController.m; sourceTree = "<group>"; };
 		5B4781322577968400F5D68F /* LGHWrittenExaminationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHWrittenExaminationViewController.h; sourceTree = "<group>"; };
 		5B4781332577968400F5D68F /* LGHWrittenExaminationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHWrittenExaminationViewController.m; sourceTree = "<group>"; };
 		5B47813B2577A35700F5D68F /* test01解题思路.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test01解题思路.png"; sourceTree = "<group>"; };
@@ -796,9 +799,19 @@
 		5B217C4B2570AE1500B311BA /* 07-多线程 */ = {
 			isa = PBXGroup;
 			children = (
+				5B460CD2258CC14C00C63AB5 /* 4张图片合成一张图片 */,
 				5B00A46D2578BE9400582C17 /* 可变数组的线程安全问题 */,
 			);
 			path = "07-多线程";
+			sourceTree = "<group>";
+		};
+		5B460CD2258CC14C00C63AB5 /* 4张图片合成一张图片 */ = {
+			isa = PBXGroup;
+			children = (
+				5B460CD3258CC1D100C63AB5 /* LGHThreadViewController.h */,
+				5B460CD4258CC1D100C63AB5 /* LGHThreadViewController.m */,
+			);
+			path = "4张图片合成一张图片";
 			sourceTree = "<group>";
 		};
 		5B4781312577962200F5D68F /* 10-笔试 */ = {
@@ -2081,6 +2094,7 @@
 				5B217BCF256E470E00B311BA /* LGHTimer02ViewController.m in Sources */,
 				5BA222362566845600F8B583 /* YYTextView.m in Sources */,
 				5BA222622566845600F8B583 /* NSString+YYAdd.m in Sources */,
+				5B460CD5258CC1D100C63AB5 /* LGHThreadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
