@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  001---直播架构搭建
+//
+//  Created by cooci on 2018/10/23.
+//  Copyright © 2018 cooci. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "SharedConfig.h"
+#import "SharedMacro.h"
+#import "UIColor+Hex.h"
+#import "TYAttributedLabel.h"
+#import "UIColor+App.h"
+#import "UIFont+App.h"
+
+
+#import "CDDContext.h"
+#import "Masonry.h"
+#import <AFNetworking.h>
+#import <MBProgressHUD.h>
+
+// 首页
+#import "KCHomeView.h"
+#import "KCHomePresenter.h"
+#import "KCHomeAdapter.h"
+#import "KCHomeInteractor.h"
+
+#import "KCLiveStreamViewController.h"
+#import "KCLiveStreamInteractor.h"
+#import "KCLiveStreamPresenter.h"
+#import "KCLiveStreamAdapter.h"
+#import "KCLiveStreamView.h"
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,53 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (0.9.2)
+  - MSWeakTimer (1.1.0)
+  - pop (1.0.10)
+
+DEPENDENCIES:
+  - AFDownloadRequestOperation (~> 2.0.1)
+  - AFNetworking (~> 2.0)
+  - MBProgressHUD (~> 0.9.2)
+  - MSWeakTimer (~> 1.1.0)
+  - pop (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFDownloadRequestOperation
+    - AFNetworking
+    - MBProgressHUD
+    - MSWeakTimer
+    - pop
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+
+PODFILE CHECKSUM: 0b7919575f9505c1e2a97677d4208e5b157d82f4
+
+COCOAPODS: 1.5.3

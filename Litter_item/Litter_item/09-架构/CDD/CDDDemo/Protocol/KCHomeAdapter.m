@@ -1,0 +1,12 @@
+//
+//  KCHomeAdapter.m
+//  Litter_item
+//
+//  Created by 小肥观 on 2020/12/22.
+//
+
+#import "KCHomeAdapter.h"
+
+@implementation KCHomeAdapter
+
+@end
