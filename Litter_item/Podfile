@@ -17,7 +17,7 @@ target 'Litter_item' do
   # ReactiveCocoa-objc
   pod 'ReactiveObjC'  , '3.1.1'
   # 内存泄漏检测框架(利用黑魔法)
-#  pod 'MLeaksFinder'  , '1.0.0'
+  pod 'MLeaksFinder'  , '1.0.0'
   #Beelive
   pod 'BeeHive'       , '1.1.1'
   pod 'CTMediator'    , '44'

@@ -1,12 +1,15 @@
 PODS:
   - BeeHive (1.1.1)
   - CTMediator (44)
+  - FBRetainCycleDetector (0.1.4)
   - FDFullscreenPopGesture (1.1)
   - LGHWebViewModule (0.1.0):
     - CTMediator
     - FDFullscreenPopGesture
     - Masonry
   - Masonry (1.1.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
   - MSWeakTimer (1.1.0)
   - pop (1.0.12)
   - ReactiveObjC (3.1.1)
@@ -16,6 +19,7 @@ DEPENDENCIES:
   - CTMediator (= 44)
   - LGHWebViewModule (from `./PrivatePods/LGHWebViewModule`)
   - Masonry (= 1.1.0)
+  - MLeaksFinder (= 1.0.0)
   - MSWeakTimer (~> 1.1.0)
   - pop (~> 1.0)
   - ReactiveObjC (= 3.1.1)
@@ -24,8 +28,10 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BeeHive
     - CTMediator
+    - FBRetainCycleDetector
     - FDFullscreenPopGesture
     - Masonry
+    - MLeaksFinder
     - MSWeakTimer
     - pop
     - ReactiveObjC
@@ -37,13 +43,15 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BeeHive: 81b697e94e1ae0993eccf5388e195f3fbfe707a6
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   LGHWebViewModule: 96a2aaf7e77dfb2d0b2967ec1dc743a8ac1a3c01
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 67bfaf084981d7931d4d0d069b33a004cd89a264
+PODFILE CHECKSUM: 541d88f670ddcd82a8f42e3968f23c266a2b7367
 
 COCOAPODS: 1.10.0
