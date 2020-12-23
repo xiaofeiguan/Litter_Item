@@ -20,7 +20,9 @@
 
 - (CDDContext*)context {
     id curContext = objc_getAssociatedObject(self, @selector(context));
+    
     if (curContext == nil && [self isKindOfClass:[UIView class]]) {
+        // 
         UIView *view = (UIView *)self;
         UIView *sprView = view.superview;
         while(sprView != nil){
