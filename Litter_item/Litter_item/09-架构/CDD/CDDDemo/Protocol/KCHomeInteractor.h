@@ -6,10 +6,10 @@
 //
 
 #import "KCBaseInteractor.h"
-
+#import "KCHomePresenter.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KCHomeInteractor : KCBaseInteractor
+@interface KCHomeInteractor : KCBaseInteractor<KCHomePresentDelegate>
 
 @end
 

@@ -7,17 +7,21 @@
 //
 
 #import "ViewController.h"
-
+#import "KCHomeViewController.h"
 @interface ViewController ()
-
+//@property (nonatomic, strong) KCHomeViewController * homeVC;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)gotoLiveLists:(UIButton *)sender {
+    KCHomeViewController *homeVC = [[KCHomeViewController alloc]init];
+    [self.navigationController pushViewController:homeVC animated:YES];
+    
+}
 
 @end

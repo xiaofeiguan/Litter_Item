@@ -28,13 +28,17 @@
     self.homeAdapter = [KCHomeAdapter new];
     self.homeAdapter.adapterDelegate = self;
     
+    [(id<KCHomePresentDelegate>)(self.view) buildHomeView:self.homeAdapter];
+    
+    [(id<KCHomePresentDelegate>)(self.context.presenter) loadDataWithAdapter:self.homeAdapter];
+    
     
     
 }
 
 #pragma mark - KCBaseAdapterDelegate
 - (void)didSelectCellData:(id)cellData{
-    
+    [(id<KCHomePresentDelegate>)(self.context.interactor) gotoLiveStream];
 }
 
 @end

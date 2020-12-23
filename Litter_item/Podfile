@@ -10,8 +10,6 @@ target 'Litter_item' do
   #  pod 'Texture', '~> 3.0.0'
   # 自动布局框架
   pod 'Masonry'       , '1.1.0'
-  # MBProgressHUD
-  pod 'MBProgressHUD' , '0.9.2'
   # MSWeakTimer
   pod 'MSWeakTimer'   , '~> 1.1.0'
   # pop
@@ -19,7 +17,7 @@ target 'Litter_item' do
   # ReactiveCocoa-objc
   pod 'ReactiveObjC'  , '3.1.1'
   # 内存泄漏检测框架(利用黑魔法)
-  pod 'MLeaksFinder'  , '1.0.0'
+#  pod 'MLeaksFinder'  , '1.0.0'
   #Beelive
   pod 'BeeHive'       , '1.1.1'
   pod 'CTMediator'    , '44'

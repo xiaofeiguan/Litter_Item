@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface CDDView : UIView
+@interface CDDView : LGHView
 @property (nonatomic, weak) CDDPresenter*               presenter;
 @property (nonatomic, weak) CDDInteractor*              interactor;
 @end

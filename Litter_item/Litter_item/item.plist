@@ -255,6 +255,14 @@
 				<key>isPush</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>多张图片合成一张图片</string>
+				<key>class</key>
+				<string>LGHThreadViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -273,6 +281,14 @@
 				<string>本地Pod组件化</string>
 				<key>class</key>
 				<string>LGHPodModuleViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>MVP+CDD架构探索</string>
+				<key>class</key>
+				<string>LGHCDDDemoViewController</string>
 				<key>isPush</key>
 				<true/>
 			</dict>

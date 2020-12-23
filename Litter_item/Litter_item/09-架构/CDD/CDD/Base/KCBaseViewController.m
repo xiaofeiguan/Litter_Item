@@ -19,8 +19,10 @@
 -(void)configMVPWithView:(CDDView *)view Presentor:(CDDPresenter*)presenter Interactor:(CDDInteractor*)interactor{
     
     self.mvpEnabled = true;
-    self.rootContext = [[CDDContext alloc]init];
-    self.context = self.rootContext;
+    
+    self.rootContext = [[CDDContext alloc]init]; //strong
+    
+    self.context = self.rootContext; //weak
     
     if (presenter) {
         self.context.presenter = presenter;

@@ -15,7 +15,7 @@
 
 //关联对象
 -(void)setContext:(CDDContext *)context{
-    objc_setAssociatedObject(self, @selector(context), context, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(context), context, OBJC_ASSOCIATION_ASSIGN);
 }
 
 - (CDDContext*)context {

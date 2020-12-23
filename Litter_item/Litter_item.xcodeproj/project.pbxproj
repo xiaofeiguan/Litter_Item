@@ -195,6 +195,9 @@
 		5BA2FFE12591D88B00F715D8 /* KCBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFDF2591D88B00F715D8 /* KCBasePresenter.m */; };
 		5BA2FFF62591DB7F00F715D8 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF32591DB7F00F715D8 /* CGPointExtension.m */; };
 		5BA2FFF72591DB7F00F715D8 /* UIBezierPath+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF42591DB7F00F715D8 /* UIBezierPath+Interpolation.m */; };
+		5BDE9D8F2592DC97002299A8 /* KCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */; };
+		5BDE9D952592DCD7002299A8 /* KCChannelProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */; };
+		5BDE9DF52592EDB1002299A8 /* LGHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9DF42592EDB1002299A8 /* LGHView.m */; };
 		774644A0256FF5190074050F /* XJVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746449E256FF5190074050F /* XJVerticalButton.m */; };
 		77B60F88256D40E300A316DA /* LGHTableViewFoldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B60F87256D40E300A316DA /* LGHTableViewFoldController.m */; };
 		77C7CEE6256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C7CEE5256EBDA700DC03E0 /* LGHReactiveCocoaViewController.m */; };
@@ -638,6 +641,12 @@
 		5BA2FFFD2591DBA500F715D8 /* UIView+EFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EFrame.m"; sourceTree = "<group>"; };
 		5BA2FFFE2591DBA500F715D8 /* UIView+Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Display.h"; sourceTree = "<group>"; };
 		5BA2FFFF2591DBA500F715D8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		5BDE9D8D2592DC97002299A8 /* KCHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCHomeTableViewCell.h; sourceTree = "<group>"; };
+		5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCHomeTableViewCell.m; sourceTree = "<group>"; };
+		5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCChannelProfile.m; path = "../../../../../../架构/直播架构搭建/001---直播架构搭建/Application/Home/Model/KCChannelProfile.m"; sourceTree = "<group>"; };
+		5BDE9D942592DCD7002299A8 /* KCChannelProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCChannelProfile.h; path = "../../../../../../架构/直播架构搭建/001---直播架构搭建/Application/Home/Model/KCChannelProfile.h"; sourceTree = "<group>"; };
+		5BDE9DF32592EDB1002299A8 /* LGHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHView.h; sourceTree = "<group>"; };
+		5BDE9DF42592EDB1002299A8 /* LGHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHView.m; sourceTree = "<group>"; };
 		6B6879BD910102669E5FBA37 /* Pods-Litter_itemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_itemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Litter_itemUITests/Pods-Litter_itemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF9E7066346D6CF952497F8 /* Pods-Litter_item.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter_item.debug.xcconfig"; path = "Target Support Files/Pods-Litter_item/Pods-Litter_item.debug.xcconfig"; sourceTree = "<group>"; };
 		7746449E256FF5190074050F /* XJVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJVerticalButton.m; sourceTree = "<group>"; };
@@ -890,8 +899,8 @@
 		5B217C4B2570AE1500B311BA /* 07-多线程 */ = {
 			isa = PBXGroup;
 			children = (
-				5B460CD2258CC14C00C63AB5 /* 4张图片合成一张图片 */,
 				5B00A46D2578BE9400582C17 /* 可变数组的线程安全问题 */,
+				5B460CD2258CC14C00C63AB5 /* 多张图片合成一张图片 */,
 			);
 			path = "07-多线程";
 			sourceTree = "<group>";
@@ -923,7 +932,7 @@
 			children = (
 				5B3CF9EA2591BFD90043C0C1 /* Controller */,
 				5B3CF9ED2591C00A0043C0C1 /* Views */,
-				5B3CF9EC2591BFFE0043C0C1 /* ViewModel */,
+				5B3CF9EC2591BFFE0043C0C1 /* Model */,
 				5B3CF9EB2591BFE90043C0C1 /* Protocol */,
 			);
 			path = CDDDemo;
@@ -951,11 +960,13 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		5B3CF9EC2591BFFE0043C0C1 /* ViewModel */ = {
+		5B3CF9EC2591BFFE0043C0C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BDE9D942592DCD7002299A8 /* KCChannelProfile.h */,
+				5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */,
 			);
-			path = ViewModel;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5B3CF9ED2591C00A0043C0C1 /* Views */ = {
@@ -963,17 +974,19 @@
 			children = (
 				5BA2005F2591F32800F715D8 /* KCHomeView.h */,
 				5BA200602591F32800F715D8 /* KCHomeView.m */,
+				5BDE9D8D2592DC97002299A8 /* KCHomeTableViewCell.h */,
+				5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5B460CD2258CC14C00C63AB5 /* 4张图片合成一张图片 */ = {
+		5B460CD2258CC14C00C63AB5 /* 多张图片合成一张图片 */ = {
 			isa = PBXGroup;
 			children = (
 				5B460CD3258CC1D100C63AB5 /* LGHThreadViewController.h */,
 				5B460CD4258CC1D100C63AB5 /* LGHThreadViewController.m */,
 			);
-			path = "4张图片合成一张图片";
+			path = "多张图片合成一张图片";
 			sourceTree = "<group>";
 		};
 		5B4781312577962200F5D68F /* 10-笔试 */ = {
@@ -1224,7 +1237,7 @@
 			path = Litter_itemUITests;
 			sourceTree = "<group>";
 		};
-		5BA01B352563D39D0062E210 /* BaseViewController */ = {
+		5BA01B352563D39D0062E210 /* BaseViewAndController */ = {
 			isa = PBXGroup;
 			children = (
 				5BA01B3A2563D39D0062E210 /* LGHBaseTableViewController.h */,
@@ -1235,8 +1248,10 @@
 				5BA01B5A2563DDD60062E210 /* LGHBaseWKWebViewController.m */,
 				5B217BDC256E47D800B311BA /* LGHBaseViewController.h */,
 				5B217BDD256E47D800B311BA /* LGHBaseViewController.m */,
+				5BDE9DF32592EDB1002299A8 /* LGHView.h */,
+				5BDE9DF42592EDB1002299A8 /* LGHView.m */,
 			);
-			path = BaseViewController;
+			path = BaseViewAndController;
 			sourceTree = "<group>";
 		};
 		5BA01B372563D39D0062E210 /* MVP */ = {
@@ -1722,7 +1737,7 @@
 		77F712D1255EF052008564E9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				5BA01B352563D39D0062E210 /* BaseViewController */,
+				5BA01B352563D39D0062E210 /* BaseViewAndController */,
 				77F712D2255EF144008564E9 /* LGHMakeViewTools */,
 				5BA01B372563D39D0062E210 /* MVP */,
 				5BA200142591DC1500F715D8 /* TYAttributedLabel */,
@@ -2226,6 +2241,7 @@
 				5BA2225E2566845600F8B583 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				5BA2225A2566845600F8B583 /* NSBundle+YYAdd.m in Sources */,
 				5BA222272566845600F8B583 /* YYImageCache.m in Sources */,
+				5BDE9DF52592EDB1002299A8 /* LGHView.m in Sources */,
 				5BA200322591DC1600F715D8 /* TYTextContainer.m in Sources */,
 				5B217BDE256E47D800B311BA /* LGHBaseViewController.m in Sources */,
 				5BA2223D2566845600F8B583 /* YYTextSelectionView.m in Sources */,
@@ -2288,6 +2304,7 @@
 				77F71388255FD0DB008564E9 /* LGHTabbar02ViewController.m in Sources */,
 				5BA222732566845600F8B583 /* YYReachability.m in Sources */,
 				5B8FF291255E3563007A74E4 /* ViewController.m in Sources */,
+				5BDE9D8F2592DC97002299A8 /* KCHomeTableViewCell.m in Sources */,
 				5BA2224E2566845600F8B583 /* UIApplication+YYAdd.m in Sources */,
 				5BA222632566845600F8B583 /* NSNotificationCenter+YYAdd.m in Sources */,
 				5BA222612566845600F8B583 /* NSDate+YYAdd.m in Sources */,
@@ -2353,6 +2370,7 @@
 				77C7CEEF256EBEAA00DC03E0 /* LGHRACSignal.m in Sources */,
 				77F71303255EF892008564E9 /* CheckboxTableViewCell.m in Sources */,
 				5BA222262566845600F8B583 /* YYMemoryCache.m in Sources */,
+				5BDE9D952592DCD7002299A8 /* KCChannelProfile.m in Sources */,
 				5BA200302591DC1600F715D8 /* TYAttributedLabel.m in Sources */,
 				5BA222592566845600F8B583 /* NSNumber+YYAdd.m in Sources */,
 				5BA222482566845600F8B583 /* YYTextArchiver.m in Sources */,
@@ -2542,7 +2560,7 @@
 				DEVELOPMENT_TEAM = 66M88PL895;
 				GCC_PREFIX_HEADER = Litter_item/header/PrefixHeader.pch;
 				INFOPLIST_FILE = Litter_item/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2571,7 +2589,7 @@
 				DEVELOPMENT_TEAM = 66M88PL895;
 				GCC_PREFIX_HEADER = Litter_item/header/PrefixHeader.pch;
 				INFOPLIST_FILE = Litter_item/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
