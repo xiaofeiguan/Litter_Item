@@ -195,6 +195,7 @@
 		5BA2FFE12591D88B00F715D8 /* KCBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFDF2591D88B00F715D8 /* KCBasePresenter.m */; };
 		5BA2FFF62591DB7F00F715D8 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF32591DB7F00F715D8 /* CGPointExtension.m */; };
 		5BA2FFF72591DB7F00F715D8 /* UIBezierPath+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF42591DB7F00F715D8 /* UIBezierPath+Interpolation.m */; };
+		5BD17E6C2595D1DF001C8300 /* LGHSwitchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD17E6B2595D1DF001C8300 /* LGHSwitchScreenViewController.m */; };
 		5BDE9D8F2592DC97002299A8 /* KCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */; };
 		5BDE9D952592DCD7002299A8 /* KCChannelProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */; };
 		5BDE9DF52592EDB1002299A8 /* LGHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9DF42592EDB1002299A8 /* LGHView.m */; };
@@ -692,6 +693,8 @@
 		5BA2FFFD2591DBA500F715D8 /* UIView+EFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EFrame.m"; sourceTree = "<group>"; };
 		5BA2FFFE2591DBA500F715D8 /* UIView+Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Display.h"; sourceTree = "<group>"; };
 		5BA2FFFF2591DBA500F715D8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		5BD17E6A2595D1DF001C8300 /* LGHSwitchScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSwitchScreenViewController.h; sourceTree = "<group>"; };
+		5BD17E6B2595D1DF001C8300 /* LGHSwitchScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSwitchScreenViewController.m; sourceTree = "<group>"; };
 		5BDE9D8D2592DC97002299A8 /* KCHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCHomeTableViewCell.h; sourceTree = "<group>"; };
 		5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCHomeTableViewCell.m; sourceTree = "<group>"; };
 		5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCChannelProfile.m; path = "../../../../../../架构/直播架构搭建/001---直播架构搭建/Application/Home/Model/KCChannelProfile.m"; sourceTree = "<group>"; };
@@ -1306,14 +1309,16 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = "08-内存管理";
+			name = "08-内存管理";
+			path = "../08-内存管理";
 			sourceTree = "<group>";
 		};
 		5B881F48258071FB004B89CB /* 03-动画 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "03-动画";
+			name = "03-动画";
+			path = "../03-动画";
 			sourceTree = "<group>";
 		};
 		5B8FF27D255E3563007A74E4 = {
@@ -1341,17 +1346,7 @@
 		5B8FF288255E3563007A74E4 /* Litter_item */ = {
 			isa = PBXGroup;
 			children = (
-				5B76B298255E89F400E5C74D /* 00-自定义UI */,
-				77F714222561589A008564E9 /* 01-自定义控件 */,
-				77F713D225601377008564E9 /* 02-页面布局 */,
-				5B881F48258071FB004B89CB /* 03-动画 */,
-				5BA01B432563D3C00062E210 /* 04-性能优化 */,
-				5B76B2ED25628D0300E5C74D /* 05-底层原理 */,
-				77C7CEE2256EBC9C00DC03E0 /* 06-源码分析 */,
-				5B217C4B2570AE1500B311BA /* 07-多线程 */,
-				5B881F442580717D004B89CB /* 08-内存管理 */,
-				5B881F3825806F4E004B89CB /* 09-架构 */,
-				5B4781312577962200F5D68F /* 10-面试 */,
+				5BD17E702595D217001C8300 /* Item */,
 				5B76B2A0255E8BDE00E5C74D /* Tools */,
 				77F712EC255EF234008564E9 /* Category */,
 				77F712D1255EF052008564E9 /* Lib */,
@@ -1854,6 +1849,33 @@
 			path = FontColor;
 			sourceTree = "<group>";
 		};
+		5BD17E692595D160001C8300 /* 手动切换横竖屏 */ = {
+			isa = PBXGroup;
+			children = (
+				5BD17E6A2595D1DF001C8300 /* LGHSwitchScreenViewController.h */,
+				5BD17E6B2595D1DF001C8300 /* LGHSwitchScreenViewController.m */,
+			);
+			path = "手动切换横竖屏";
+			sourceTree = "<group>";
+		};
+		5BD17E702595D217001C8300 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				5B76B298255E89F400E5C74D /* 00-自定义UI */,
+				77F714222561589A008564E9 /* 01-自定义控件 */,
+				77F713D225601377008564E9 /* 02-页面布局 */,
+				5B881F48258071FB004B89CB /* 03-动画 */,
+				5BA01B432563D3C00062E210 /* 04-性能优化 */,
+				5B76B2ED25628D0300E5C74D /* 05-底层原理 */,
+				77C7CEE2256EBC9C00DC03E0 /* 06-源码分析 */,
+				5B217C4B2570AE1500B311BA /* 07-多线程 */,
+				5B881F442580717D004B89CB /* 08-内存管理 */,
+				5B881F3825806F4E004B89CB /* 09-架构 */,
+				5B4781312577962200F5D68F /* 10-面试 */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
 		5BDE9E64259334A7002299A8 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -2194,6 +2216,7 @@
 				5BA220052565299700F8B583 /* 微博复杂页面的布局 */,
 				77B60F85256D3F6B00A316DA /* UITableViewCell的折叠 */,
 				77D0E205256D55BE002E69F0 /* UITableView每个Section设置为圆角 */,
+				5BD17E692595D160001C8300 /* 手动切换横竖屏 */,
 			);
 			path = "02-页面布局";
 			sourceTree = "<group>";
@@ -2704,6 +2727,7 @@
 				5B7A73192576301D00354304 /* LGHCatonCheckViewController.m in Sources */,
 				5B76B2FA25628D9100E5C74D /* LGHPerson.m in Sources */,
 				5BA2224A2566845600F8B583 /* UITextField+YYAdd.m in Sources */,
+				5BD17E6C2595D1DF001C8300 /* LGHSwitchScreenViewController.m in Sources */,
 				5BA2226C2566845600F8B583 /* YYTransaction.m in Sources */,
 				5BA2000A2591DBA500F715D8 /* UIFont+App.m in Sources */,
 				5BDE9ECC259334A8002299A8 /* UIImage+ForceDecode.m in Sources */,
