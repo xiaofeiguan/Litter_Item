@@ -6,7 +6,27 @@
 //
 
 #import "LGHSwitchScreenViewController.h"
+#import <WebKit/WebKit.h>
+@interface LGHSwitchScreenViewController ()
+
+@property (nonatomic, strong) WKWebView * mainWebView;
+
+@end
 
 @implementation LGHSwitchScreenViewController
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    
+    self.
+    
+    self.mainWebView = [[WKWebView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:self.mainWebView];
+    
+    [self.mainWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"Https://www.baidu.com"]]];
+    
+}
+
+
 
 @end

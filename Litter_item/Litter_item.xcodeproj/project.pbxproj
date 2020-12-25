@@ -196,8 +196,8 @@
 		5BA2FFF62591DB7F00F715D8 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF32591DB7F00F715D8 /* CGPointExtension.m */; };
 		5BA2FFF72591DB7F00F715D8 /* UIBezierPath+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2FFF42591DB7F00F715D8 /* UIBezierPath+Interpolation.m */; };
 		5BD17E6C2595D1DF001C8300 /* LGHSwitchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD17E6B2595D1DF001C8300 /* LGHSwitchScreenViewController.m */; };
+		5BD17E9F2595DF7D001C8300 /* KCChannelProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD17E9E2595DF7D001C8300 /* KCChannelProfile.m */; };
 		5BDE9D8F2592DC97002299A8 /* KCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */; };
-		5BDE9D952592DCD7002299A8 /* KCChannelProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */; };
 		5BDE9DF52592EDB1002299A8 /* LGHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9DF42592EDB1002299A8 /* LGHView.m */; };
 		5BDE9E4725932CAD002299A8 /* 面试题.docx in Resources */ = {isa = PBXBuildFile; fileRef = 5BDE9E4625932CAC002299A8 /* 面试题.docx */; };
 		5BDE9EC9259334A8002299A8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE9E6C259334A7002299A8 /* SDWebImageManager.m */; };
@@ -695,10 +695,10 @@
 		5BA2FFFF2591DBA500F715D8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		5BD17E6A2595D1DF001C8300 /* LGHSwitchScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHSwitchScreenViewController.h; sourceTree = "<group>"; };
 		5BD17E6B2595D1DF001C8300 /* LGHSwitchScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHSwitchScreenViewController.m; sourceTree = "<group>"; };
+		5BD17E9D2595DF7D001C8300 /* KCChannelProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCChannelProfile.h; sourceTree = "<group>"; };
+		5BD17E9E2595DF7D001C8300 /* KCChannelProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCChannelProfile.m; sourceTree = "<group>"; };
 		5BDE9D8D2592DC97002299A8 /* KCHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCHomeTableViewCell.h; sourceTree = "<group>"; };
 		5BDE9D8E2592DC97002299A8 /* KCHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCHomeTableViewCell.m; sourceTree = "<group>"; };
-		5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCChannelProfile.m; path = "../../../../../../架构/直播架构搭建/001---直播架构搭建/Application/Home/Model/KCChannelProfile.m"; sourceTree = "<group>"; };
-		5BDE9D942592DCD7002299A8 /* KCChannelProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCChannelProfile.h; path = "../../../../../../架构/直播架构搭建/001---直播架构搭建/Application/Home/Model/KCChannelProfile.h"; sourceTree = "<group>"; };
 		5BDE9DF32592EDB1002299A8 /* LGHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHView.h; sourceTree = "<group>"; };
 		5BDE9DF42592EDB1002299A8 /* LGHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHView.m; sourceTree = "<group>"; };
 		5BDE9E4625932CAC002299A8 /* 面试题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "面试题.docx"; sourceTree = "<group>"; };
@@ -1089,7 +1089,7 @@
 				5B3CF9EA2591BFD90043C0C1 /* Controller */,
 				5B3CF9ED2591C00A0043C0C1 /* Views */,
 				5B3CF9EB2591BFE90043C0C1 /* Protocol */,
-				5B3CF9EC2591BFFE0043C0C1 /* Model */,
+				5BD17E9C2595DA3F001C8300 /* Model */,
 			);
 			path = CDDDemo;
 			sourceTree = "<group>";
@@ -1114,15 +1114,6 @@
 				5BA200752591F48F00F715D8 /* KCHomeInteractor.m */,
 			);
 			path = Protocol;
-			sourceTree = "<group>";
-		};
-		5B3CF9EC2591BFFE0043C0C1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5BDE9D942592DCD7002299A8 /* KCChannelProfile.h */,
-				5BDE9D932592DCD7002299A8 /* KCChannelProfile.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		5B3CF9ED2591C00A0043C0C1 /* Views */ = {
@@ -1876,6 +1867,15 @@
 			path = Item;
 			sourceTree = "<group>";
 		};
+		5BD17E9C2595DA3F001C8300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BD17E9D2595DF7D001C8300 /* KCChannelProfile.h */,
+				5BD17E9E2595DF7D001C8300 /* KCChannelProfile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5BDE9E64259334A7002299A8 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -2598,6 +2598,7 @@
 				5BA2FFE02591D88B00F715D8 /* KCBaseAdapter.m in Sources */,
 				5BA222472566845600F8B583 /* YYTextAttribute.m in Sources */,
 				5BA2225E2566845600F8B583 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
+				5BD17E9F2595DF7D001C8300 /* KCChannelProfile.m in Sources */,
 				5BA2225A2566845600F8B583 /* NSBundle+YYAdd.m in Sources */,
 				5BA222272566845600F8B583 /* YYImageCache.m in Sources */,
 				5BDE9DF52592EDB1002299A8 /* LGHView.m in Sources */,
@@ -2770,7 +2771,6 @@
 				77C7CEEF256EBEAA00DC03E0 /* LGHRACSignal.m in Sources */,
 				77F71303255EF892008564E9 /* CheckboxTableViewCell.m in Sources */,
 				5BA222262566845600F8B583 /* YYMemoryCache.m in Sources */,
-				5BDE9D952592DCD7002299A8 /* KCChannelProfile.m in Sources */,
 				5BA200302591DC1600F715D8 /* TYAttributedLabel.m in Sources */,
 				5BA222592566845600F8B583 /* NSNumber+YYAdd.m in Sources */,
 				5BDE9FB525933E18002299A8 /* NSBundle+MJRefresh.m in Sources */,
@@ -2973,7 +2973,7 @@
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/Item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3002,7 +3002,7 @@
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lgh.smoothv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Litter_item/Item/04-性能优化/启动时间优化/Litter_item-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

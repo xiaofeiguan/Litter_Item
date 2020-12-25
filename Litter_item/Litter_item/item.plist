@@ -117,6 +117,14 @@
 				<key>isPush</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>title</key>
+				<string>手动切换横竖屏</string>
+				<key>class</key>
+				<string>LGHSwitchScreenViewController</string>
+				<key>isPush</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<dict>
